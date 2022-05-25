@@ -1,8 +1,6 @@
-package ConditionalStatementsAdvancedExercise;
-
 import java.util.Scanner;
 
-public class OnTimeForTheExam {
+public class On_Time_For_The_Exam_08 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -23,33 +21,29 @@ public class OnTimeForTheExam {
             if (difference < 60) {
                 output2 = String.format("%d minutes before the start", difference);
             }
-        }
-        else if (arriveTime < examTime - 30) {
+        } else if (arriveTime < examTime - 30) {
             output1 = "Early";
             int difference = examTime - arriveTime;
             if (difference < 60) {
                 output2 = String.format("%d minutes before the start", difference);
-            }
-            else {
+            } else {
                 int hours = difference / 60;
                 int minutes = difference % 60;
                 output2 = String.format("%d:%02d hours before the start", hours, minutes);
-
             }
-        }
-        else if (arriveTime > examTime) {
+        } else if (arriveTime > examTime) {
             output1 = "Late";
             int difference = arriveTime - examTime;
 
             if (difference < 60) {
                 output2 = String.format("%d minutes after the start", difference);
-            }
-            else {
+            } else {
                 int hours = difference / 60;
                 int minutes = difference % 60;
                 output2 = String.format("%d:%02d hours after the start", hours, minutes);
             }
         }
+        
         System.out.println(output1);
         System.out.println(output2);
     }
