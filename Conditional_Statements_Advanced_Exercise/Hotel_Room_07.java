@@ -1,8 +1,6 @@
-package ConditionalStatementsAdvancedExercise;
-
 import java.util.Scanner;
 
-public class HotelRoom {
+public class Hotel_Room _07{
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -42,12 +40,10 @@ public class HotelRoom {
         if (month.equals("May") || month.equals("October")) {
             if (nights > 7 && nights < 14) {
                 studioPrice = studioPrice - (studioPrice * 0.05);
-            }
-            else if (nights > 14) {
+            } else if (nights > 14) {
                 studioPrice = studioPrice - (studioPrice * 0.30);
             }
-        }
-        else if (month.equals("June") || month.equals("September")) {
+        } else if (month.equals("June") || month.equals("September")) {
             if (nights > 14) {
                 studioPrice = studioPrice - (studioPrice * 0.20);
             }
@@ -59,15 +55,8 @@ public class HotelRoom {
             }
         }
 
-
-
         System.out.printf("Apartment: %.2f lv.", apartmentPrice);
         System.out.println("");
         System.out.printf("Studio: %.2f lv.", studioPrice);
-
-
-
-
-
     }
 }
