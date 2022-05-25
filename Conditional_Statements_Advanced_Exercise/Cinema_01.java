@@ -8,7 +8,6 @@ public class Cinema_01 {
         int r = Integer.parseInt(scanner.nextLine());
         int c = Integer.parseInt(scanner.nextLine());
 
-
         double result = 0.0;
 
         switch (type) {
