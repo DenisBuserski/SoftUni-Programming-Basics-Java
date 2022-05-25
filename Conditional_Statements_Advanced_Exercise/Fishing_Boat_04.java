@@ -1,8 +1,6 @@
-package ConditionalStatementsAdvancedExercise;
-
 import java.util.Scanner;
 
-public class FishingBoat{
+public class Fishing_Boat_04 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -27,11 +25,9 @@ public class FishingBoat{
 
        if (workers <= 6) {
            price *= 0.90;
-       }
-       else if (workers <= 11) {
+       } else if (workers <= 11) {
            price *= 0.85;
-       }
-       else {
+       } else {
            price *= 0.75;
         }
 
@@ -41,11 +37,9 @@ public class FishingBoat{
 
        if (budget >= price) {
            System.out.printf("Yes! You have %.2f leva left.", budget - price);
-       }
-       else {
+       } else {
            System.out.printf("Not enough money! You need %.2f leva.", price - budget);
         }
+        
     }
 }
-
-
