@@ -1,8 +1,6 @@
-package ConditionalStatementsAdvancedExercise;
-
 import java.util.Scanner;
 
-public class Journey {
+public class Journey_05 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -16,34 +14,29 @@ public class Journey {
             if (season.equals("summer")) {
                 finalBudget = budget * 0.30;
                 System.out.printf("Camp - %.2f", finalBudget);
-            }
-            else if (season.equals("winter")) {
+            } else if (season.equals("winter")) {
                 finalBudget = budget * 0.70;
                 System.out.printf("Hotel - %.2f", finalBudget);
             }
-        }
-        else if (budget <= 1000) {
+        } else if (budget <= 1000) {
             System.out.println("Somewhere in Balkans");
             if (season.equals("summer")) {
                 finalBudget = budget * 0.40;
                 System.out.printf("Camp - %.2f", finalBudget);
-            }
-            else if (season.equals("winter")) {
+            } else if (season.equals("winter")) {
                 finalBudget = budget * 0.80;
                 System.out.printf("Hotel - %.2f", finalBudget);
             }
-
-        }
-        else if (budget > 1000) {
+        } else if (budget > 1000) {
             System.out.println("Somewhere in Europe");
             if (season.equals("summer")) {
                 finalBudget = budget * 0.90;
                 System.out.printf("Hotel - %.2f", finalBudget);
-            }
-            else if (season.equals("winter")) {
+            } else if (season.equals("winter")) {
                 finalBudget = budget * 0.90;
                 System.out.printf("Hotel - %.2f", finalBudget);
             }
         }
+        
     }
 }
