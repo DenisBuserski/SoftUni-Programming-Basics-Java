@@ -1,8 +1,6 @@
-package ConditionalStatementsAdvancedExercise;
-
 import java.util.Scanner;
 
-public class OperationsBetweenNumbers {
+public class Operations_Between_Numbers_06 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -49,5 +47,6 @@ public class OperationsBetweenNumbers {
                 System.out.printf("Cannot divide %d by zero", num1);
             }
         }
+        
     }
 }
