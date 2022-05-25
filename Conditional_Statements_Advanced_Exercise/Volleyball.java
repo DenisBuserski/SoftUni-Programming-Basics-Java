@@ -1,5 +1,3 @@
-package ConditionalStatementsAdvancedExercise;
-
 import javax.print.attribute.standard.Finishings;
 import java.util.Scanner;
 
@@ -17,14 +15,15 @@ public class Volleyball {
         double weekendsSofia = (weekends - weekend) * (3.0 / 4);
         double holidaysSofia = holiday * (2.0 / 3);
         double totalgames = weekendsSofia + weekend + holidaysSofia;
+        
         if (yearType.equals("leap")) {
             double bonusGames = totalgames * 0.15;
             double result = Math.floor(totalgames + bonusGames);
             System.out.println(result);
-        }
-        else {
+        } else {
             double result = Math.floor(totalgames);
             System.out.println(result);
         }
+        
     }
 }
