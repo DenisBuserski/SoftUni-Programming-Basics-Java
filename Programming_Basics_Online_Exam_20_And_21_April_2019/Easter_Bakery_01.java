@@ -1,8 +1,6 @@
-package ProgrammingBasicsOnlineExam20And21April2019;
-
 import java.util.Scanner;
 
-public class EasterBakery {
+public class Easter_Bakery_01 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -23,8 +21,5 @@ public class EasterBakery {
 
         double finalResult = flourSum + sugarSum + eggsSum + yeastSum;
         System.out.printf("%.2f", finalResult);
-
-
-
     }
 }
