@@ -1,8 +1,6 @@
-package ProgrammingBasicsOnlineExam20And21April2019;
-
 import java.util.Scanner;
 
-public class EasterLunch {
+public class Easter_Lunch_01 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -18,8 +16,5 @@ public class EasterLunch {
 
         double result = easterBreadPrice + eggsPrice + cookiesPrice + paintEggsPrice;
         System.out.printf("%.2f", result);
-
-
-
     }
 }
