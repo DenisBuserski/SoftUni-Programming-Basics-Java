@@ -1,8 +1,6 @@
-package ProgrammingBasicsOnlineExam20And21April2019;
-
 import java.util.Scanner;
 
-public class EasterTrip {
+public class Easter_Trip_03 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -47,9 +45,8 @@ public class EasterTrip {
                 }
                 break;
         }
+        
         double result = nights * price;
         System.out.printf("Easter trip to %s : %.2f leva.", destination, result);
-
-
     }
 }
