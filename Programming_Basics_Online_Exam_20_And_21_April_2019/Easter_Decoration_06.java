@@ -1,8 +1,6 @@
-package ProgrammingBasicsOnlineExam20And21April2019;
-
 import java.util.Scanner;
 
-public class EasterDecoration {
+public class Easter_Decoration_06 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -16,7 +14,6 @@ public class EasterDecoration {
             double basketPrice = 0;
             double wreathPrice = 0;
             double chocolateBunnyPrice = 0;
-
 
             while (!purchase.equals("Finish")) {
                 purchase = scanner.nextLine();
@@ -47,9 +44,7 @@ public class EasterDecoration {
                 }
 
             }
-
         }
-
 
         System.out.printf("Average bill per client is: %.2f leva.", finalPrice / clients);
     }
