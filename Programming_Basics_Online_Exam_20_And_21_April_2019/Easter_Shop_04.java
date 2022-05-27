@@ -1,8 +1,6 @@
-package ProgrammingBasicsOnlineExam20And21April2019;
-
 import java.util.Scanner;
 
-public class EasterShop {
+public class Easter_Shop_04 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -12,7 +10,6 @@ public class EasterShop {
         int eggsBuy = 0;
 
         while (!comand.equals("Close")) {
-
             if (comand.equals("Fill")) {
                 int eggsNum = Integer.parseInt(scanner.nextLine());
                 startEggs += eggsNum;
@@ -30,10 +27,10 @@ public class EasterShop {
                     break;
                 }
             }
+            
             comand = scanner.nextLine();
-
-
         }
+        
         if (comand.equals("Close")) {
             System.out.printf("Store is closed!%n");
             System.out.printf("%d eggs sold.", eggsBuy);
