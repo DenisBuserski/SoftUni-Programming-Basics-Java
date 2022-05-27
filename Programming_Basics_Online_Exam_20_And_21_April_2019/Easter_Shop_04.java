@@ -20,8 +20,7 @@ public class Easter_Shop_04 {
                 if (eggsNum <= startEggs) {
                     startEggs -= eggsNum;
                     eggsBuy += eggsNum;
-                }
-                else {
+                } else {
                     System.out.printf("Not enough eggs in store!%n");
                     System.out.printf("You can buy only %d.", startEggs);
                     break;
