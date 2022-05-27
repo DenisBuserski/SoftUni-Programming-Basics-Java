@@ -1,13 +1,10 @@
-package ProgrammingBasicsOnlineExam20And21April2019;
-
 import java.util.Scanner;
 
-public class EasterEggs {
+public class Easter_Eggs_05 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
         int eggsNum = Integer.parseInt(scanner.nextLine());
-
         int red = 0;
         int orange = 0;
         int blue = 0;
@@ -32,6 +29,7 @@ public class EasterEggs {
                     break;
             }
         }
+        
         System.out.printf("Red eggs: %d%n", red);
         System.out.printf("Orange eggs: %d%n", orange);
         System.out.printf("Blue eggs: %d%n", blue);
@@ -51,6 +49,7 @@ public class EasterEggs {
         if (max == green) {
             colourResult = "green";
         }
+        
         System.out.printf("Max eggs: %d -> %s", max, colourResult);
     }
 }
