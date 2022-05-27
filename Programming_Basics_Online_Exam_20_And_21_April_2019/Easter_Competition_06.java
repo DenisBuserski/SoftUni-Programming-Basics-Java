@@ -1,8 +1,6 @@
-package ProgrammingBasicsOnlineExam20And21April2019;
-
 import java.util.Scanner;
 
-public class EasterCompetition {
+public class Easter_Competition_06 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -32,8 +30,7 @@ public class EasterCompetition {
                 }
             }
         }
+        
         System.out.printf("%s won competition with %d points!", bestName, gradeMax);
-
-
     }
 }
