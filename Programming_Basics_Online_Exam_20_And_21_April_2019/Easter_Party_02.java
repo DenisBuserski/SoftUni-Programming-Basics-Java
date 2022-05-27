@@ -1,8 +1,6 @@
-package ProgrammingBasicsOnlineExam20And21April2019;
-
 import java.util.Scanner;
 
-public class EasterParty {
+public class Easter_Party_02 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -33,7 +31,6 @@ public class EasterParty {
         } else {
             System.out.printf("It is party time! %.2f leva left.", budget - total);
         }
-
 
     }
 }
