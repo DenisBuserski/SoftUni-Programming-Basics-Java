@@ -1,8 +1,6 @@
-package ProgrammingBasicsOnlineExam20And21April2019;
-
 import java.util.Scanner;
 
-public class EasterBake {
+public class Easter_Bake_05 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -28,15 +26,12 @@ public class EasterBake {
                 maxFlour = flour;
             }
         }
+        
         double packSugar = Math.ceil(totalSugar / 950);
         double packFlour = Math.ceil(totalFlour / 750);
 
         System.out.printf("Sugar: %.0f%n", packSugar);
         System.out.printf("Flour: %.0f%n", packFlour);
         System.out.printf("Max used flour is %.0f grams, max used sugar is %.0f grams.", maxFlour, maxSugar);
-
-
-
-
     }
 }
