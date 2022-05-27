@@ -1,8 +1,6 @@
-package ProgrammingBasicsOnlineExam20And21April2019;
-
 import java.util.Scanner;
 
-public class PaintingEggs {
+public class Painting_Eggs_03 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -51,6 +49,5 @@ public class PaintingEggs {
         int result = eggsNum * price;
         double finalResult = result * 0.65;
         System.out.printf("%.2f leva.", finalResult);
-
     }
 }
