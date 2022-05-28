@@ -2,7 +2,7 @@ package ProgrammingBasicsOnlineExam20And21April2019;
 
 import java.util.Scanner;
 
-public class EasterEggsBattle {
+public class Easter_Eggs_Battle_04 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
