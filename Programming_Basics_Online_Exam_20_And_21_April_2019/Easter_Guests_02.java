@@ -18,7 +18,7 @@ public class Easter_Guests_02 {
              System.out.printf("He has %.2f lv. left.", budget - finalPrice);
         } else {
             System.out.printf("Lyubo doesn't have enough money.%n");
-                  System.out.printf("He needs %.2f lv. more.", finalPrice - budget);
+            System.out.printf("He needs %.2f lv. more.", finalPrice - budget);
         }
 
     }
