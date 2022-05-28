@@ -14,8 +14,8 @@ public class Easter_Guests_02 {
         double finalPrice = easterBreadPrice + eggsPrice;
         
         if (finalPrice <= budget) {
-           System.out.printf("Lyubo bought %.0f Easter bread and %.0f eggs.%n", easterBreadNum, eggsNum);
-             System.out.printf("He has %.2f lv. left.", budget - finalPrice);
+            System.out.printf("Lyubo bought %.0f Easter bread and %.0f eggs.%n", easterBreadNum, eggsNum);
+            System.out.printf("He has %.2f lv. left.", budget - finalPrice);
         } else {
             System.out.printf("Lyubo doesn't have enough money.%n");
             System.out.printf("He needs %.2f lv. more.", finalPrice - budget);
