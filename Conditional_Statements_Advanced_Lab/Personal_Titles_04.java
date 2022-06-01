@@ -1,8 +1,6 @@
-package ConditionalStatementsAdvancedLab;
-
 import java.util.Scanner;
 
-public class PersonalTitles {
+public class Personal_Titles_04 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -12,18 +10,16 @@ public class PersonalTitles {
         if (age < 16){
             if (gender.equals("f")){
                 System.out.println("Miss");
-            }
-            else if (gender.equals("m")){
+            } else if (gender.equals("m")){
                 System.out.println("Master");
             }
-        }
-        else {
+        } else {
             if (gender.equals("f")){
                 System.out.println("Ms.");
-            }
-            else if (gender.equals("m")){
+            } else if (gender.equals("m")){
                 System.out.println("Mr.");
             }
         }
+        
     }
 }
