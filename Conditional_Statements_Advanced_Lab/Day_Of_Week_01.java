@@ -1,8 +1,6 @@
-package ConditionalStatementsAdvancedLab;
-
 import java.util.Scanner;
 
-public class DayOfWeek {
+public class Day_Of_Week_01 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -33,7 +31,6 @@ public class DayOfWeek {
             default:
                 System.out.println("Error");
                 break;
-
         }
 
     }
