@@ -1,8 +1,6 @@
-package ConditionalStatementsAdvancedLab;
-
 import java.util.Scanner;
 
-public class WeekendOrWorkingDay {
+public class Weekend_Or_Working_Day_02 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -33,10 +31,7 @@ public class WeekendOrWorkingDay {
             default:
                 System.out.println("Error");
                 break;
-
-
         }
-
 
     }
 }
