@@ -1,8 +1,6 @@
-package ConditionalStatementsAdvancedLab;
-
 import java.util.Scanner;
 
-public class InvalidNumber {
+public class Invalid_Number_10 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -12,5 +10,6 @@ public class InvalidNumber {
         if (!isValid) {
             System.out.println("invalid");
         }
+        
     }
 }
