@@ -1,8 +1,6 @@
-package ConditionalStatementsAdvancedLab;
-
 import java.util.Scanner;
 
-public class SkiTrip {
+public class Ski_Trip {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -22,11 +20,9 @@ public class SkiTrip {
                 price = 25;
                 if (nightsCount < 10) {
                     price = price * 0.7;
-                }
-                else if (nightsCount <= 15) {
+                } else if (nightsCount <= 15) {
                     price = price * 0.65;
-                }
-                else if (nightsCount > 15) {
+                } else if (nightsCount > 15) {
                     price = price * 0.5;
                 }
                 break;
@@ -34,20 +30,18 @@ public class SkiTrip {
                 price = 35;
                 if (nightsCount < 10) {
                     price = price * 0.9;
-                }
-                else if (nightsCount <= 15) {
+                } else if (nightsCount <= 15) {
                     price = price * 0.85;
-                }
-                else if (nightsCount > 15) {
+                } else if (nightsCount > 15) {
                     price = price * 0.8;
                 }
                 break;
         }
+        
         double totalPrice = price * nightsCount;
         if (feedback.equals("positive")) {
             totalPrice = totalPrice * 1.25;
-        }
-        else if (feedback.equals("negative")) {
+        } else if (feedback.equals("negative")) {
             totalPrice = totalPrice * 0.9;
         }
         System.out.printf("%.2f", totalPrice);
