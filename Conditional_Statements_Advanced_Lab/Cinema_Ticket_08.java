@@ -1,8 +1,6 @@
-package ConditionalStatementsAdvancedLab;
-
 import java.util.Scanner;
 
-public class CinemaTicket {
+public class Cinema_Ticket_08 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -12,15 +10,13 @@ public class CinemaTicket {
                 || dayOfWeek.equals("Tuesday")
                 || dayOfWeek.equals("Friday")) {
             System.out.println(12);
-        }
-        else if (dayOfWeek.equals("Wednesday")
+        } else if (dayOfWeek.equals("Wednesday")
                 || dayOfWeek.equals("Thursday")) {
             System.out.println(14);
-        }
-        else if (dayOfWeek.equals("Saturday")
+        } else if (dayOfWeek.equals("Saturday")
                 || dayOfWeek.equals("Sunday")) {
             System.out.println(16);
         }
+        
     }
-
 }
