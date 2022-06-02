@@ -1,8 +1,6 @@
-package ConditionalStatementsAdvancedLab;
-
 import java.util.Scanner;
 
-public class NumberInRange {
+public class Number_In_Range_06 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -10,12 +8,9 @@ public class NumberInRange {
 
         if (number >= -100 && number <= 100 && number != 0) {
             System.out.println("Yes");
-        }
-        else {
+        } else {
             System.out.println("No");
         }
-
-
 
     }
 }
