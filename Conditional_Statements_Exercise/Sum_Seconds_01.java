@@ -1,8 +1,6 @@
-package ConditionalStatementsExercise;
-
 import java.util.Scanner;
 
-public class SumSeconds {
+public class Sum_Seconds_01 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -11,15 +9,14 @@ public class SumSeconds {
         int timeThird = Integer.parseInt(scanner.nextLine());
 
         int totalTime = timeFirst + timeSecond + timeThird;
-
         int minutes = totalTime / 60;
         int seconds = totalTime % 60;
 
         if(seconds < 10){
             System.out.printf("%d:0%d", minutes, seconds);
-        }
-        else {
+        } else {
             System.out.printf("%d:%d", minutes, seconds);
         }
+        
     }
 }
