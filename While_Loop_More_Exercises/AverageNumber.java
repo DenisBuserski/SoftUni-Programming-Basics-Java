@@ -1,8 +1,6 @@
-package WhileLoopMoreExercises;
-
 import java.util.Scanner;
 
-public class AverageNumber {
+public class Average_Number {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -12,13 +10,8 @@ public class AverageNumber {
         for (int i = 1; i <= n; i++) {
             int num = Integer.parseInt(scanner.nextLine());
             sum += num;
-
-
         }
+        
         System.out.printf("%.2f", sum / n);
-
-
-
-
     }
 }
