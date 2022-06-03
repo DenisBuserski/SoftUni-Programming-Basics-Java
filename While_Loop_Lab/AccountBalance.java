@@ -1,8 +1,6 @@
-package WhileLoopLab;
-
 import java.util.Scanner;
 
-public class AccountBalance {
+public class Account_Balance {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -20,9 +18,7 @@ public class AccountBalance {
 
             input = scanner.nextLine();
         }
+        
         System.out.printf("Total: %.2f", bankAccount);
-
-
-
     }
 }
