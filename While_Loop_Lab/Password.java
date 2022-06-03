@@ -1,5 +1,3 @@
-package WhileLoopLab;
-
 import java.util.Scanner;
 
 public class Password {
@@ -8,8 +6,8 @@ public class Password {
 
         String username = scanner.nextLine();
         String password = scanner.nextLine();
-
         String inputPassword = scanner.nextLine();
+        
         while (!password.equals(inputPassword)) {
             inputPassword = scanner.nextLine();
         }
