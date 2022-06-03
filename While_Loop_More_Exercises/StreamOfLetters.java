@@ -1,8 +1,6 @@
-package WhileLoopMoreExercises;
-
 import java.util.Scanner;
 
-public class StreamOfLetters {
+public class Stream_Of_Letters {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -14,7 +12,6 @@ public class StreamOfLetters {
         boolean n = false;
 
         String input = scanner.nextLine();
-
         while (!input.equals("End")) {
             char valid = input.charAt(0);
 
@@ -26,50 +23,37 @@ public class StreamOfLetters {
                         if (o){
                             word += input;
                         }
-
                         o = true;
                         break;
-
                     case "c":
                         if (c){
                             word += input;
                         }
-
                         c = true;
                         break;
-
                     case "n":
                         if (n){
                             word += input;
                         }
-
                         n = true;
                         break;
-
                     default:
                         word += input;
                         break;
                 }
 
-//       когато сме срещнали и трите символа по веднъв влиза в if където печата и отново 'o'=false 'c'=false 'n'=false
-                if (o && c && n) {
+
+                if (o && c && n) { // Когато сме срещнали и трите символа по веднъв влиза в if където печата и отново 'o'=false 'c'=false 'n'=false
                     System.out.print(word + " ");
                     o = false;
                     c = false;
                     n = false;
-
                     word = "";
                 }
             }
+            
             input = scanner.nextLine();
-
-
         }
-
-
-
-
-
 
     }
 }
