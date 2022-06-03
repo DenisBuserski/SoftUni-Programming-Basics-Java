@@ -1,5 +1,3 @@
-package WhileLoopMoreExercises;
-
 import java.util.Scanner;
 
 public class Dishwasher {
@@ -16,24 +14,20 @@ public class Dishwasher {
         int potSoap = 0;
         int plateSoap = 0;
 
-
         while(!input.equals("End")) {
             input = scanner.nextLine();
             row++;
 
             if (input.equals("End")) {
                 break;
-            }
-
-            else if (row % 3 == 0) {
+            } else if (row % 3 == 0) {
                 pot = 15 * Integer.parseInt(input);
                 soap -= pot;
                 potSoap += pot;
                 if (soap < 0) {
                     break;
                 }
-            }
-            else if (row % 3 != 0) {
+            } else if (row % 3 != 0) {
                 plate = 5 * Integer.parseInt(input);
                 soap -= plate;
                 plateSoap += plate;
@@ -41,13 +35,11 @@ public class Dishwasher {
                     break;
                 }
             }
-
-
         }
+        
         if (soap >= 0) {
             System.out.printf("Detergent was enough!%n%d dishes and %d pots were washed.%nLeftover detergent %d ml.", plateSoap / 5, potSoap / 15, soap);
-        }
-        else {
+        } else {
             System.out.printf("Not enough detergent, %d ml. more necessary!", Math.abs(soap));
         }
 
