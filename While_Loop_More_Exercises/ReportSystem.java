@@ -1,8 +1,6 @@
-package WhileLoopMoreExercises;
-
 import java.util.Scanner;
 
-public class ReportSystem {
+public class Report_System {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -12,16 +10,12 @@ public class ReportSystem {
         int row = 0;
         double cash = 0;
         double card = 0;
-
         double res1 = 0;
         double res2 = 0;
-
         int cashP = 0;
         int cardP = 0;
 
-
         String input = "";
-
         while (sumResult < sumSales) {
             input = scanner.nextLine();
             row++;
@@ -34,8 +28,7 @@ public class ReportSystem {
             if (row % 2 != 0) {
                 if (Integer.parseInt(input) > 100) {
                     System.out.println("Error in transaction!");
-                }
-                else {
+                } else {
                     cash += Integer.parseInt(input);
                     cashP++;
                     res1 = cash / cashP;
@@ -47,13 +40,11 @@ public class ReportSystem {
                     }
                 }
             }
-
             // CARD
             if (row % 2 == 0) {
                 if (Integer.parseInt(input) < 10) {
                     System.out.println("Error in transaction!");
-                }
-                else {
+                } else {
                     card += Integer.parseInt(input);
                     cardP++;
                     res2 = card / cardP;
@@ -65,7 +56,6 @@ public class ReportSystem {
                     }
                 }
             }
-
         }
 
         if (input.equals("End")) {
@@ -74,4 +64,3 @@ public class ReportSystem {
 
     }
 }
-
