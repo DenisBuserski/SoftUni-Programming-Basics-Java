@@ -1,8 +1,6 @@
-package WhileLoopLab;
-
 import java.util.Scanner;
 
-public class ReadText {
+public class Read_Text {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -13,7 +11,6 @@ public class ReadText {
             }
             System.out.println(input);
         }
-
 
     }
 }
