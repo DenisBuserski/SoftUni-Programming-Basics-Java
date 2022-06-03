@@ -1,5 +1,3 @@
-package WhileLoopMoreExercises;
-
 import java.util.Scanner;
 
 public class Numbers_Divided_By_3_Without_Reminder {
