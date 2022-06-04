@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Dishwasher {
+public class Dishwasher_01 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
