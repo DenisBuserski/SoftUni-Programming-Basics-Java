@@ -1,8 +1,6 @@
-package ConditionalStatementsExercise;
-
 import java.util.Scanner;
 
-public class WorldSwimmingRecord {
+public class World_Swimming_Record_06 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -14,12 +12,12 @@ public class WorldSwimmingRecord {
         double waterTime = Math.floor(distance / 15) * 12.5;
         double totalTime = distanceForRecord + waterTime;
 
-        if(totalTime >= worldRecord){
+        if (totalTime >= worldRecord) {
             double difference = totalTime - worldRecord;
             System.out.printf("No, he failed! He was %.2f seconds slower.", difference);
-        }
-        else if (totalTime < worldRecord){
+        } else if (totalTime < worldRecord) {
             System.out.printf("Yes, he succeeded! The new world record is %.2f seconds.", totalTime);
         }
+        
     }
 }
