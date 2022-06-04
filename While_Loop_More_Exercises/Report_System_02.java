@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Report_System {
+public class Report_System_02 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -23,7 +23,6 @@ public class Report_System {
             if (input.equals("End")) {
                 break;
             }
-
             // CASH
             if (row % 2 != 0) {
                 if (Integer.parseInt(input) > 100) {
