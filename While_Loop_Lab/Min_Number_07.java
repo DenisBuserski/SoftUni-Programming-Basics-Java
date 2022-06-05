@@ -1,8 +1,6 @@
-package WhileLoopLab;
-
 import java.util.Scanner;
 
-public class MinNumber {
+public class Min_Number_07 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -13,12 +11,11 @@ public class MinNumber {
             int number = Integer.parseInt(input);
             if (number < minNumber) {
                 minNumber = number;
-
             }
+            
             input = scanner.nextLine();
-
         }
+        
         System.out.println(minNumber);
-
     }
 }
