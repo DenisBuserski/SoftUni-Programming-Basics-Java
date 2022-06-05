@@ -1,8 +1,6 @@
-package WhileLoopLab;
-
 import java.util.Scanner;
 
-public class MaxNumber {
+public class Max_Number_06 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -13,12 +11,11 @@ public class MaxNumber {
             int number = Integer.parseInt(input);
             if (number > maxNumber) {
                 maxNumber = number;
-
             }
+            
             input = scanner.nextLine();
-
         }
+        
         System.out.println(maxNumber);
-
     }
 }
