@@ -1,8 +1,6 @@
-package NestedLoopsLab;
-
 import java.util.Scanner;
 
-public class Building {
+public class Building_06 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -11,9 +9,8 @@ public class Building {
 
         for (int a = floor; a >= 1; a--) {
             System.out.printf("%n");
-
+            
             for (int b = 0; b < room; b++) {
-
                 if (floor == a) {
                     System.out.printf("L%d%d ", a, b);
                 }
@@ -24,11 +21,7 @@ public class Building {
                     System.out.printf("A%d%d ", a, b);
                 }
             }
-
-
-
         }
 
     }
-
 }
