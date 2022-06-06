@@ -43,10 +43,10 @@ To learn more about the course you can check [Softuni](https://softuni.bg/)
 - [Lab](https://github.com/DenisBuserski/Softuni_Programming_Fundamentals_Java/tree/main/Text_Processing_Lab)
 - [Exercise](https://github.com/DenisBuserski/Softuni_Programming_Fundamentals_Java/tree/main/Text_Processing_Exercise)
 - [More Exercise](https://github.com/DenisBuserski/Softuni_Programming_Fundamentals_Java/tree/main/Text_Processing_More_Exercise)
-### Regular Expressions
-- [Lab](https://github.com/DenisBuserski/Softuni_Programming_Fundamentals_Java/tree/main/Regular_Expressions_Lab)
-- [Exercise](https://github.com/DenisBuserski/Softuni_Programming_Fundamentals_Java/tree/main/Regular_Expressions_Exercises)
-- [More Exercise](https://github.com/DenisBuserski/Softuni_Programming_Fundamentals_Java/tree/main/Regular_Expressions_More_Exercise)
+### Nested Loops
+- [Lab](https://github.com/DenisBuserski/SoftUni-Programming-Basics-Java/tree/main/Nested_Loops_Lab)
+- [Exercise](https://github.com/DenisBuserski/SoftUni-Programming-Basics-Java/tree/main/Nested_Loops_Exercise)
+- [More Exercise](https://github.com/DenisBuserski/SoftUni-Programming-Basics-Java/tree/main/Nested_Loops_More_Exercises)
 
 
 ## Exams
