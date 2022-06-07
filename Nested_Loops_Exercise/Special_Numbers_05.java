@@ -1,8 +1,6 @@
-package NestedLoopsExercise;
-
 import java.util.Scanner;
 
-public class SpecialNumbers {
+public class Special_Numbers_05 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -12,7 +10,6 @@ public class SpecialNumbers {
             for (int b = 1; b <= 9; b++) {
                 for (int c = 1; c <= 9; c++) {
                     for (int d = 1; d <= 9; d++) {
-
                         if (n % a == 0 && n % b == 0 && n % c == 0 && n % d == 0) {
                             System.out.printf("%d%d%d%d ", a, b, c, d);
                         }
@@ -20,11 +17,6 @@ public class SpecialNumbers {
                 }
             }
         }
-
-
-
-
-
 
     }
 }
