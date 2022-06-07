@@ -1,15 +1,12 @@
-package NestedLoopsExercise;
-
 import java.util.Scanner;
 
-public class TrainTheTrainers {
+public class Train_The_Trainers_04 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
         // n - judge
         int n = Integer.parseInt(scanner.nextLine());
         String presentation = scanner.nextLine();
-
         double finalAvarage = 0;
         double nSum = 0;
         double gradeSumTotal = 0;
@@ -19,7 +16,6 @@ public class TrainTheTrainers {
             double avarage = 0;
 
             for (int gradeNum = 1; gradeNum <= n; gradeNum++) {
-
                 double grade = Double.parseDouble(scanner.nextLine());
                 gradeSum += grade;
                 nSum++;
@@ -38,5 +34,6 @@ public class TrainTheTrainers {
                 break;
             }
         }
+        
     }
 }
