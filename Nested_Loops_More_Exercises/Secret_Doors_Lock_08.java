@@ -1,8 +1,6 @@
-package NestedLoopsMoreExercises;
-
 import java.util.Scanner;
 
-public class SecretDoorSLock {
+public class Secret_Doors_Lock_08 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -25,13 +23,8 @@ public class SecretDoorSLock {
                         System.out.printf("%d %d %d%n", first, second, third);
                     }
                 }
-
             }
         }
+        
     }
 }
-
-
-
-
-
