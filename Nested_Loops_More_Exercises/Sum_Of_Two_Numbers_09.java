@@ -1,15 +1,12 @@
-package NestedLoopsMoreExercises;
-
 import java.util.Scanner;
 
-public class SumOfTwoNumbers {
+public class Sum_Of_Two_Numbers_09 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
         int first = Integer.parseInt(scanner.nextLine());
         int last = Integer.parseInt(scanner.nextLine());
         int magic = Integer.parseInt(scanner.nextLine());
-
         int combinationNum = 0;
         int combination;
         boolean flag = false;
@@ -32,8 +29,10 @@ public class SumOfTwoNumbers {
                 break;
             }
         }
+        
         if (thereIs) {
             System.out.printf("%d combinations - neither equals %d", combinationNum, magic);
         }
+        
     }
 }
