@@ -1,8 +1,6 @@
-package NestedLoopsMoreExercises;
-
 import java.util.Scanner;
 
-public class LuckyNumbers {
+public class Lucky_Numbers_03 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -12,7 +10,6 @@ public class LuckyNumbers {
             for (int b = 1; b <= 9; b++) {
                 for (int c = 1; c <= 9; c++) {
                     for (int d = 1; d <= 9; d ++) {
-
                         if ((a + b) == (c + d)) {
                             if (n % (a + b) == 0) {
                                 System.out.printf("%d%d%d%d ", a, b, c, d );
@@ -22,12 +19,6 @@ public class LuckyNumbers {
                 }
             }
         }
-
-
-
-
-
-
 
     }
 }
