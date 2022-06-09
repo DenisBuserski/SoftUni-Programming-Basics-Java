@@ -1,8 +1,6 @@
-package NestedLoopsMoreExercises;
-
 import java.util.Scanner;
 
-public class TheSongOfTheWheels {
+public class The_Song_Of_The_Wheels_12 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -18,7 +16,6 @@ public class TheSongOfTheWheels {
             for (int b = 1; b <= 9; b++) {
                 for (int c = 1; c <= 9; c++) {
                     for (int d = 1; d <= 9; d++) {
-
                         if (a < b && c > d && a * b + c * d == m) {
                             System.out.printf("%d%d%d%d ", a, b, c, d);
                             counter++;
@@ -34,16 +31,14 @@ public class TheSongOfTheWheels {
                 }
             }
         }
+        
         if (counter >= 4) {
             System.out.printf("%n");
             System.out.printf("Password: %d%d%d%d", a1, b1, c1, d1);
-        }
-        else {
+        } else {
             System.out.printf("%n");
             System.out.println("No!");
         }
-
-
 
     }
 }
