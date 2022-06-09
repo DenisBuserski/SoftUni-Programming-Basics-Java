@@ -1,5 +1,3 @@
-package NestedLoopsMoreExercises;
-
 import java.util.Scanner;
 
 public class HappyCat_Parking_11 {
