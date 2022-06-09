@@ -1,8 +1,6 @@
-package NestedLoopsMoreExercises;
-
 import java.util.Scanner;
 
-public class PrimePairs {
+public class Prime_Pairs_13 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -13,13 +11,11 @@ public class PrimePairs {
 
         int lastFirst2 = startFirst2 + differenceFirst;
         int lastSecond2 = startSecond2 + differenceSecond;
-
         int count = 0;
         int count1 = 0;
 
         for (int a = startFirst2; a <= lastFirst2; a++) {
             for (int b = startSecond2; b <= lastSecond2; b++) {
-
                 count = 0;
                 count1 = 0;
 
@@ -38,15 +34,8 @@ public class PrimePairs {
                     System.out.printf("%d%d%n", a, b);
                 }
 
-
-
             }
         }
 
-
-
-
-
-        //System.out.printf("%d%d%n", a, b);
     }
 }
