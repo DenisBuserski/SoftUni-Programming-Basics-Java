@@ -1,19 +1,15 @@
-package WhileLoopExercise;
-
 import java.util.Scanner;
 
-public class OldBooks {
+public class Old_Books_01 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
         String searchedBook = scanner.nextLine();
-
         String currentBook = scanner.nextLine();
         boolean isFound = false;
         int bookCount = 0;
 
         while (!currentBook.equals("No More Books")) {
-
             if (currentBook.equals(searchedBook)) {
                 isFound = true;
                 break;
@@ -26,14 +22,10 @@ public class OldBooks {
 
         if (isFound) {
             output = String.format("You checked %d books and found it.", bookCount);
-        }
-        else {
+        } else {
             output = String.format("The book you search is not here!%nYou checked %d books", bookCount);
-
         }
 
         System.out.println(output);
-
-
     }
 }
