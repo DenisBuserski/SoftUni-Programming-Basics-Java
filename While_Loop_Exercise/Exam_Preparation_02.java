@@ -1,15 +1,11 @@
-package WhileLoopExercise;
-
 import java.util.Scanner;
 
-public class ExamPreparation {
+public class Exam_Preparation_02 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
         int poorGradesLimit = Integer.parseInt(scanner.nextLine());
-
         String task = scanner.nextLine();
-
         int badGrades = 0;
         int allGradesSum = 0;
         int gradesCount = 0;
@@ -36,11 +32,10 @@ public class ExamPreparation {
         String output = "";
         if (badGrades == poorGradesLimit) {
             output = String.format("You need a break, %d poor grades", badGrades);
-        }
-        else {
+        } else {
             output = String.format("Average score: %.2f%n" + "Number of problems: %d%n" + "Last problem: %s", averageScore, gradesCount, currentTask);
-
         }
+        
         System.out.println(output);
     }
 }
