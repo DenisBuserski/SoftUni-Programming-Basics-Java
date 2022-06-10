@@ -39,10 +39,10 @@ To learn more about the course you can check [Softuni](https://softuni.bg/)
 - [Lab](https://github.com/DenisBuserski/Softuni_Programming_Fundamentals_Java/tree/main/Maps_Lambda_And_Stream_API_Lab)
 - [Exercise](https://github.com/DenisBuserski/Softuni_Programming_Fundamentals_Java/tree/main/Maps_Lambda_And_Stream_API_Exercise)
 - [More Exercise](https://github.com/DenisBuserski/Softuni_Programming_Fundamentals_Java/tree/main/Maps_Lambda_And_Stream_API_More_Exercise)
-### Text Processing
-- [Lab](https://github.com/DenisBuserski/Softuni_Programming_Fundamentals_Java/tree/main/Text_Processing_Lab)
-- [Exercise](https://github.com/DenisBuserski/Softuni_Programming_Fundamentals_Java/tree/main/Text_Processing_Exercise)
-- [More Exercise](https://github.com/DenisBuserski/Softuni_Programming_Fundamentals_Java/tree/main/Text_Processing_More_Exercise)
+### While Loop 
+- [Lab](https://github.com/DenisBuserski/SoftUni-Programming-Basics-Java/tree/main/While_Loop_Lab)
+- [Exercise](https://github.com/DenisBuserski/SoftUni-Programming-Basics-Java/tree/main/While_Loop_Exercise)
+- [More Exercise](https://github.com/DenisBuserski/SoftUni-Programming-Basics-Java/tree/main/While_Loop_More_Exercises)
 ### Nested Loops
 - [Lab](https://github.com/DenisBuserski/SoftUni-Programming-Basics-Java/tree/main/Nested_Loops_Lab)
 - [Exercise](https://github.com/DenisBuserski/SoftUni-Programming-Basics-Java/tree/main/Nested_Loops_Exercise)
