@@ -1,8 +1,6 @@
-package WhileLoopExercise;
-
 import java.util.Scanner;
 
-public class Walking {
+public class Walking_04 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -15,8 +13,7 @@ public class Walking {
             if ("Going home".equals(input)) {
                 allSteps += Integer.parseInt(scanner.nextLine());
                 break;
-            }
-            else {
+            } else {
                 allSteps += Integer.parseInt(input);
             }
         }
@@ -24,9 +21,9 @@ public class Walking {
         if (allSteps >= 10000) {
             System.out.printf("Goal reached! Good job!%n" +
                     "%d steps over the goal!", allSteps - 10000);
-        }
-        else {
+        } else {
             System.out.printf("%d more steps to reach goal.", (10000 - allSteps));
         }
+        
     }
 }
