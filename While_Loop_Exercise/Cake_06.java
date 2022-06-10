@@ -1,15 +1,12 @@
-package WhileLoopExercise;
-
 import java.util.Scanner;
 
-public class Cake {
+public class Cake_06 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
         int length = Integer.parseInt(scanner.nextLine());
         int width = Integer.parseInt(scanner.nextLine());
         int cakePieces = length * width;
-
         String pieces = "";
 
        while (cakePieces >= 0) {
@@ -17,11 +14,9 @@ public class Cake {
 
            if (pieces.equals("STOP")) {
                break;
-           }
-           else {
+           } else {
                cakePieces -= Integer.parseInt(pieces);
            }
-
        }
 
        if (cakePieces < 0) {
@@ -30,5 +25,6 @@ public class Cake {
        if (pieces.equals("STOP")) {
            System.out.printf("%d pieces are left.", cakePieces);
        }
+        
     }
 }
