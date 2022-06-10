@@ -1,8 +1,6 @@
-package WhileLoopExercise;
-
 import java.util.Scanner;
 
-public class Vacation {
+public class Vacation_03 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -25,23 +23,19 @@ public class Vacation {
                 if (spendDays == 5) {
                     break;
                 }
-            }
-            else {
+            } else {
                 currentMoney += money;
                 spendDays = 0;
             }
         }
 
         String output = "";
-
         if (currentMoney >= excursionPrice) {
             output = String.format("You saved the money for %d days.", allDays);
-        }
-        else {
+        } else {
             output = String.format("You can't save the money.%n%d", allDays);
         }
 
         System.out.println(output);
-
     }
 }
