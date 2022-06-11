@@ -1,18 +1,14 @@
-package ForLoopLab;
-
 import java.util.Scanner;
 
-public class VowelsSum {
+public class Vowels_Sum_06 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
         String text = scanner.nextLine();
-
         int sum = 0;
 
         for (int i = 0; i < text.length(); i++) {
             char symbol = text.charAt(i);
-
             switch (symbol) {
                 case 'a':
                     sum += 1;
@@ -32,7 +28,6 @@ public class VowelsSum {
             }
         }
         System.out.println(sum);
-
 
     }
 }
