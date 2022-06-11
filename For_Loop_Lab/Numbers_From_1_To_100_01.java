@@ -1,8 +1,6 @@
-package ForLoopLab;
-
 import java.util.Scanner;
 
-public class NumbersFrom1To100 {
+public class Numbers_From_1_To_100_01 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
