@@ -1,8 +1,6 @@
-package ForLoopMoreExercises;
-
 import java.util.Scanner;
 
-public class Logistics {
+public class Logistics_03 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -20,28 +18,22 @@ public class Logistics {
                 tonsPerLoad += weight;
                 priceTonLoads += weight * 200;
                 percentPerLoadByBus += weight;
-            }
-            else if (weight <= 11) {
+            } else if (weight <= 11) {
                 tonsPerLoad += weight;
                 priceTonLoads += weight * 175;
                 percentPerLoadByTruck += weight;
-            }
-            else {
+            } else {
                 tonsPerLoad += weight;
                 priceTonLoads += weight * 120;
                 percentPerLoadByTrain += weight;
             }
-
-
-
         }
+        
         avaragePricePerTonLoad = priceTonLoads / tonsPerLoad;
 
         System.out.printf("%.2f%n",avaragePricePerTonLoad);
         System.out.printf("%.2f%%%n",percentPerLoadByBus / tonsPerLoad * 100);
         System.out.printf("%.2f%%%n",percentPerLoadByTruck / tonsPerLoad * 100);
         System.out.printf("%.2f%%",percentPerLoadByTrain / tonsPerLoad * 100);
-
-
     }
 }
