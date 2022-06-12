@@ -1,13 +1,10 @@
-package ForLoopMoreExercises;
-
 import java.util.Scanner;
 
-public class GameOfIntervals {
+public class Game_Of_Intervals_05 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
         int n = Integer.parseInt(scanner.nextLine());
-
         double rezult = 0;
         int n1 = 0;
         int n2 = 0;
@@ -42,6 +39,7 @@ public class GameOfIntervals {
                 n6++;
             }
         }
+        
         System.out.printf("%.2f%n", rezult);
         System.out.printf("From 0 to 9: %.2f%%%n", (n1 * 1.0 / n * 100));
         System.out.printf("From 10 to 19: %.2f%%%n", (n2 * 1.0 / n * 100));
