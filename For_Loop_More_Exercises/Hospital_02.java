@@ -1,15 +1,11 @@
-package ForLoopMoreExercises;
-
 import java.util.Scanner;
 
-public class Hospital {
+public class Hospital_02 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
         int days = Integer.parseInt(scanner.nextLine());
-
         int doctors = 7;
-
         int patientsYes = 0;
         int patientsNo = 0;
 
@@ -24,16 +20,12 @@ public class Hospital {
             if (doctors < patients) {
                 patientsYes += doctors;
                 patientsNo += patients - doctors;
-            }
-            else {
+            } else {
                 patientsYes += patients;
             }
         }
+        
         System.out.printf("Treated patients: %d.%n", patientsYes);
         System.out.printf("Untreated patients: %d.", patientsNo);
-
-
-
-
     }
 }
