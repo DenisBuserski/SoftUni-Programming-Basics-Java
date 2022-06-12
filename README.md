@@ -31,19 +31,12 @@ To learn more about the course you can check [Softuni](https://softuni.bg/)
 
 
 ## Exams
-- [01.Programming Fundamentals Final Exam Retake](https://github.com/DenisBuserski/Softuni_Programming_Fundamentals_Java/tree/main/01_Programming_Fundamentals_Final_Exam_Retake)
-- [01.Programming Fundamentals Mid Exam Retake](https://github.com/DenisBuserski/Softuni_Programming_Fundamentals_Java/tree/main/01_Programming_Fundamentals_Mid_Exam_Retake)
-- [02.Programming Fundamentals Final Exam](https://github.com/DenisBuserski/Softuni_Programming_Fundamentals_Java/tree/main/02_Programming_Fundamentals_Final_Exam)
-- [02.Programming Fundamentals Mid Exam](https://github.com/DenisBuserski/Softuni_Programming_Fundamentals_Java/tree/main/02_Programming_Fundamentals_Mid_Exam)
-- [03.Programming Fundamentals Final Exam Retake](https://github.com/DenisBuserski/Softuni_Programming_Fundamentals_Java/tree/main/03_Programming_Fundamentals_Final_Exam_Retake)
-- [03.Programming Fundamentals Mid Exam Retake](https://github.com/DenisBuserski/Softuni_Programming_Fundamentals_Java/tree/main/03_Programming_Fundamentals_Mid_Exam_Retake)
-- [04.Programming Fundamentals Final Exam](https://github.com/DenisBuserski/Softuni_Programming_Fundamentals_Java/tree/main/04_Programming_Fundamentals_Final_Exam)
-- [04.Programming Fundamentals Mid Exam](https://github.com/DenisBuserski/Softuni_Programming_Fundamentals_Java/tree/main/04_Programming_Fundamentals_Mid_Exam)
-- [05.Programming Fundamentals Final Exam](https://github.com/DenisBuserski/Softuni_Programming_Fundamentals_Java/tree/main/05_Programming_Fundamentals_Final_Exam)
-- [05.Programming Fundamentals Mid Exam](https://github.com/DenisBuserski/Softuni_Programming_Fundamentals_Java/tree/main/05_Programming_Fundamentals_Mid_Exam)
-- [Programming Fundamentals Final Exam 3 April 2021](https://github.com/DenisBuserski/Softuni_Programming_Fundamentals_Java/tree/main/Programming_Fundamentals_Final_Exam_3%20April_2021)
-- [Programming Fundamentals Mid Exam 27 February 2021](https://github.com/DenisBuserski/Softuni_Programming_Fundamentals_Java/tree/main/Programming_Fundamentals_Mid_Exam_27_February_2021)
-- [Programming Fundamentals Mid Exam Retake 6 August 2019](https://github.com/DenisBuserski/Softuni_Programming_Fundamentals_Java/tree/main/Programming_Fundamentals_Mid_Exam_Retake_6_August_2019)
+- [Programming Basics Online Exam 6 And 7 July 2019](https://github.com/DenisBuserski/SoftUni-Programming-Basics-Java/tree/main/Programming_Basics_Online_Exam_6_And_7_July_2019)
+- [Programming Basics Online Exam 6 And 7 April 2019](https://github.com/DenisBuserski/SoftUni-Programming-Basics-Java/tree/main/Programming_Basics_Online_Exam_6_And_7_April_2019)
+- [Programming Basics Online Exam 28 And 29 March 2020](https://github.com/DenisBuserski/SoftUni-Programming-Basics-Java/tree/main/Programming_Basics_Online_Exam_28_And_29_March_2020)
+- [Programming Basics Online Exam 20 And 21 April 2019](https://github.com/DenisBuserski/SoftUni-Programming-Basics-Java/tree/main/Programming_Basics_Online_Exam_20_And_21_April_2019)
+- [Programming Basics Online Exam 19 And 20 December 2020](https://github.com/DenisBuserski/SoftUni-Programming-Basics-Java/tree/main/Programming_Basics_Online_Exam_19_And_20_December_2020)
+- [Exam 09 2019](https://github.com/DenisBuserski/SoftUni-Programming-Basics-Java/tree/main/Exam_09_2019)
 
 
 ## Certificates
