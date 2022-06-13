@@ -1,8 +1,6 @@
-package FirstStepsInCodingExercise;
-
 import java.util.Scanner;
 
-public class FishTank {
+public class Fish_Tank_09 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -17,6 +15,5 @@ public class FishTank {
         double litriRealno = litriSubiraemost * (1-procentChislo);
 
         System.out.printf("%.2f", litriRealno);
-
     }
 }
