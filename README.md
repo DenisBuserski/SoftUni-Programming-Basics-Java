@@ -10,7 +10,7 @@ To learn more about the course you can check [Softuni](https://softuni.bg/)
 
 ## Course topics
 ### First Steps In Coding
-- [Lab]()
+- [Lab](https://github.com/DenisBuserski/SoftUni-Programming-Basics-Java/tree/main/First_Steps_In_Coding_Lab)
 - [Exercise]()
 - [More Exercise]()
 ### Conditional Statements
