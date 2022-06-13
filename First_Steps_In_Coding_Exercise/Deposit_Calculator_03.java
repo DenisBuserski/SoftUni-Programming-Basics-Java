@@ -1,10 +1,7 @@
-package FirstStepsInCodingExercise;
-
 import java.util.Scanner;
 
-public class DepositCalculator {
+public class Deposit_Calculator_03 {
     public static void main(String[] args) {
-
         Scanner scanner = new Scanner(System.in);
 
         double depositSum = Double.parseDouble(scanner.nextLine());
@@ -12,11 +9,8 @@ public class DepositCalculator {
         double interestRate = Double.parseDouble(scanner.nextLine());
 
         double interestPerMonth = (depositSum * interestRate / 100) / 12;
-
         double result = depositSum + months * interestPerMonth;
 
         System.out.println(result);
-
-
     }
 }
