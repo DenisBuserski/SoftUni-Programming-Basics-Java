@@ -1,8 +1,6 @@
-package ForLoopExercise;
-
 import java.util.Scanner;
 
-public class Salary {
+public class Salary_05 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -24,11 +22,12 @@ public class Salary {
                     break;
             }
         }
+        
         if (salary <= 0) {
             System.out.println("You have lost your salary.");
-        }
-        else {
+        } else {
             System.out.println(salary);
         }
+        
     }
 }
