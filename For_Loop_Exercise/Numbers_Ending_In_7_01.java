@@ -1,20 +1,14 @@
-package ForLoopExercise;
-
 import java.util.Scanner;
 
-public class NumbersEndingIn7 {
+public class Numbers_Ending_In_7_01 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
         for (int i = 7; i <= 997; i++){
             if (i % 10 == 7) {
                 System.out.println(i);
-
             }
         }
-
-
-
 
     }
 }
