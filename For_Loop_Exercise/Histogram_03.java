@@ -1,8 +1,6 @@
-package ForLoopExercise;
-
 import java.util.Scanner;
 
-public class Histogram {
+public class Histogram_03 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int n = Integer.parseInt(scanner.nextLine());
@@ -27,6 +25,7 @@ public class Histogram {
                 counterP1++;
             }
         }
+        
         System.out.printf("%.2f%%%n", (double) counterP1 / n * 100);
         System.out.printf("%.2f%%%n", (double) counterP2 / n * 100);
         System.out.printf("%.2f%%%n", (double) counterP3 / n * 100);
