@@ -1,8 +1,6 @@
-package ConditionalStatementsExercise;
-
 import java.util.Scanner;
 
-public class SpeedInfo {
+public class Speed_Info {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -10,17 +8,15 @@ public class SpeedInfo {
 
         if (speed <= 10){
             System.out.println("slow");
-        }
-        else if (speed <= 50){
+        } else if (speed <= 50){
             System.out.println("average");
-        }
-        else if (speed <= 150){
+        } else if (speed <= 150){
             System.out.println("fast");
-        }
-        else if (speed <= 1000){
+        } else if (speed <= 1000){
             System.out.println("ultra fast");
+        } else {
+            System.out.println("extremely fast");
         }
-        else System.out.println("extremely fast");
+        
     }
 }
-
