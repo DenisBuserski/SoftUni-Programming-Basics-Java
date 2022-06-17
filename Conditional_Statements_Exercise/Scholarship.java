@@ -1,5 +1,3 @@
-package ConditionalStatementsExercise;
-
 import java.util.Scanner;
 
 public class Scholarship {
@@ -9,7 +7,6 @@ public class Scholarship {
         double income = Double.parseDouble(scanner.nextLine());
         double midGrade = Double.parseDouble(scanner.nextLine());
         double minSalary = Double.parseDouble(scanner.nextLine());
-
         double scholarshipByGrade = 0;
         double scholarshipSocial = 0;
 
@@ -23,10 +20,9 @@ public class Scholarship {
             System.out.printf("You get a Social scholarship %.0f BGN", Math.floor(scholarshipSocial));
         } else if (scholarshipSocial < scholarshipByGrade) {
             System.out.printf("You get a scholarship for excellent results %.0f BGN", Math.floor(scholarshipByGrade));
-        }
-        else {
+        } else {
             System.out.println("You cannot get a scholarship!");
         }
+        
     }
 }
-
