@@ -12,6 +12,5 @@ public class Pet_Shop_08 {
         double price = priceDogs + priceAnimals;
 
         System.out.println(price);
-
     }
 }
