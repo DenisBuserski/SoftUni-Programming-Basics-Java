@@ -1,8 +1,6 @@
-package FirstStepsInCodingExercise;
-
 import java.util.Scanner;
 
-public class FruitMarket {
+public class Fruit_Market {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -24,6 +22,5 @@ public class FruitMarket {
         double finalPrice = priceMalini + priceOrange + pricebanana + priceStrawberry;
 
         System.out.printf("%.2f", finalPrice);
-
     }
 }
