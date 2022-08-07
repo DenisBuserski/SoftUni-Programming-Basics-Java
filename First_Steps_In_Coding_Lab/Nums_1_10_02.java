@@ -1,5 +1,6 @@
 public class Nums_1_10_02 {
     public static void main(String[] args) {
+        
         System.out.println(1);
         System.out.println(2);
         System.out.println(3);
@@ -10,6 +11,5 @@ public class Nums_1_10_02 {
         System.out.println(8);
         System.out.println(9);
         System.out.println(10);
-
     }
 }
