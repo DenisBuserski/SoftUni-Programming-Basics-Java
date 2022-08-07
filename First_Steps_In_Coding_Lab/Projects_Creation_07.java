@@ -7,6 +7,7 @@ public class Projects_Creation_07 {
         String nameArchitect = scanner.nextLine();
         int numberProjects = Integer.parseInt(scanner.nextLine());
         int time = numberProjects * 3;
+        
         System.out.printf("The architect %s will need %d hours to complete %d project/s.", nameArchitect, time, numberProjects);
     }
 }
