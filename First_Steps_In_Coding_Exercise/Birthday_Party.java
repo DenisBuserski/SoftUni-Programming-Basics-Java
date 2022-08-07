@@ -1,8 +1,6 @@
-package FirstStepsInCodingExercise;
-
 import java.util.Scanner;
 
-public class BirthdayParty {
+public class Birthday_Party {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -14,6 +12,5 @@ public class BirthdayParty {
         double result = hall + cake + drinks + animator;
 
         System.out.println(result);
-
     }
 }
