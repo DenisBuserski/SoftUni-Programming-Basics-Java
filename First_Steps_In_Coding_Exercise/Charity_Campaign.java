@@ -1,8 +1,6 @@
-package FirstStepsInCodingExercise;
-
 import java.util.Scanner;
 
-public class CharityCampaign {
+public class Charity_Campaign {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -21,6 +19,5 @@ public class CharityCampaign {
         double finalPrice = priceForall - (priceForall / 8);
 
         System.out.printf("%.2f", finalPrice);
-
     }
 }
