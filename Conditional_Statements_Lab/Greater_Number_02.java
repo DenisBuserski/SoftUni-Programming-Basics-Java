@@ -1,17 +1,15 @@
-package ConditionalStatementsLab;
-
 import java.util.Scanner;
 
-public class GreaterNumber {
+public class Greater_Number_02 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
         int a = Integer.parseInt(scanner.nextLine());
         int b = Integer.parseInt(scanner.nextLine());
 
-        if(a > b){
+        if (a > b){
             System.out.println(a);
-            } else {
+        } else {
             System.out.println(b);
         }
     }
