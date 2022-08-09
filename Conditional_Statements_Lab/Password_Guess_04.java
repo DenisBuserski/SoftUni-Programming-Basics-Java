@@ -1,8 +1,6 @@
-package ConditionalStatementsLab;
-
 import java.util.Scanner;
 
-public class PasswordGuess {
+public class Password_Guess_04 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -10,8 +8,7 @@ public class PasswordGuess {
 
         if (password.equals("s3cr3t!P@ssw0rd")){
             System.out.println("Welcome");
-        }
-        else {
+        } else {
             System.out.println("Wrong password!");
         }
     }
