@@ -1,8 +1,6 @@
-package ConditionalStatementsLab;
-
 import java.util.Scanner;
 
-public class ToyShop {
+public class Toy_Shop {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -16,29 +14,25 @@ public class ToyShop {
         double toysPrice =  puzzles * 2.60 + dolls * 3.00 + bears * 4.10 + minions * 8.20 + trucks * 2.00;
         int toys = puzzles + dolls + bears + minions + trucks;
 
-        if(toys >= 50){
+        if (toys >= 50){
             double priceAfterDiscount = toysPrice - toysPrice * 0.25;
             double rent = priceAfterDiscount - priceAfterDiscount * 0.10;
-            if(rent >= tripPrice){
+            if (rent >= tripPrice){
                 double result = rent - tripPrice;
                 System.out.printf("Yes! %.2f lv left.", result);
-            }
-            else if (rent < tripPrice){
+            } else if (rent < tripPrice){
                 double result = tripPrice - rent;
                 System.out.printf("Not enough money! %.2f lv needed.", result);
             }
-        }
-        else if (toys < 49){
+        } else if (toys < 49){
             double rent = toysPrice - toysPrice * 0.10;
-            if(rent >= tripPrice){
+            if (rent >= tripPrice){
                 double result = rent - tripPrice;
                 System.out.printf("Yes! %.2f lv left.", result);
-            }
-            else if(rent < tripPrice){
+            } else if(rent < tripPrice){
                 double result = tripPrice - rent;
                 System.out.printf("Not enough money! %.2f lv needed.", result);
             }
         }
     }
 }
-
