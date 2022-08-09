@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Area_Of_Figures_08 {
+public class Area_Of_Figures_07 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         
