@@ -14,9 +14,13 @@ public class Scholarship {
             if (midGrade > 4.5) {
                 scholarshipSocial = minSalary * 0.35;
             }
-        } if (midGrade >= 5.5) {
+        } 
+        
+        if (midGrade >= 5.5) {
             scholarshipByGrade = midGrade * 25;
-        } if (scholarshipSocial > scholarshipByGrade) {
+        } 
+        
+        if (scholarshipSocial > scholarshipByGrade) {
             System.out.printf("You get a Social scholarship %.0f BGN", Math.floor(scholarshipSocial));
         } else if (scholarshipSocial < scholarshipByGrade) {
             System.out.printf("You get a scholarship for excellent results %.0f BGN", Math.floor(scholarshipByGrade));
