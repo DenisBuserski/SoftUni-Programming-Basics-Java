@@ -9,7 +9,7 @@ public class Sleepy_Tom_Cat_02 {
         double playWork = (365 - restDaysNum) * 63;
         double totalPlay = playRest + playWork;
 
-        if(totalPlay <= 30000){
+        if (totalPlay <= 30000){
             double result = 30000 - totalPlay;
             double hours = Math.floor(result / 60);
             double minutes = result % 60;
