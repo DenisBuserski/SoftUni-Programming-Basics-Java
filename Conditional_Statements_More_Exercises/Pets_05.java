@@ -1,8 +1,6 @@
-package ConditionalStatementsMoreExercises;
-
 import java.util.Scanner;
 
-public class Pets {
+public class Pets_05 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -17,11 +15,11 @@ public class Pets {
         double turtle = (turtleFood / 1000) * days;
         double totalFood = dog + cat + turtle;
 
-        if (totalFood <= foodKg){
+        if (totalFood <= foodKg) {
             System.out.printf("%.0f kilos of food left.", Math.floor(foodKg - totalFood));
-        }
-        else {
+        } else {
             System.out.printf("%.0f more kilos of food are needed.", Math.ceil(totalFood - foodKg));
         }
+        
     }
 }
