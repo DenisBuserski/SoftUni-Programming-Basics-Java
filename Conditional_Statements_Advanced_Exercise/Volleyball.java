@@ -1,6 +1,5 @@
 import javax.print.attribute.standard.Finishings;
 import java.util.Scanner;
-
 import static java.lang.StrictMath.ceil;
 
 public class Volleyball {
