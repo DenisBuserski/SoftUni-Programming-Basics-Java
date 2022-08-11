@@ -20,6 +20,7 @@ To learn more about the course you can check [Softuni](https://softuni.bg/)
 ### Conditional Statements Advanced
 - [Lab](https://github.com/DenisBuserski/SoftUni-Programming-Basics-Java/tree/main/Conditional_Statements_Advanced_Lab)
 - [Exercise](https://github.com/DenisBuserski/SoftUni-Programming-Basics-Java/tree/main/Conditional_Statements_Advanced_Exercise)
+- [More Exercise](https://github.com/DenisBuserski/SoftUni-Programming-Basics-Java/tree/main/Conditional_Statements_Advanced_More_Exercises)
 ### For Loop
 - [Lab](https://github.com/DenisBuserski/SoftUni-Programming-Basics-Java/tree/main/For_Loop_Lab)
 - [Exercise](https://github.com/DenisBuserski/SoftUni-Programming-Basics-Java/tree/main/For_Loop_Exercise)
