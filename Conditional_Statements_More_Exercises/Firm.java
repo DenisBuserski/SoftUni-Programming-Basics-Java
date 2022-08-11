@@ -1,5 +1,3 @@
-package ConditionalStatementsMoreExercises;
-
 import java.util.Scanner;
 
 public class Firm {
@@ -17,8 +15,7 @@ public class Firm {
 
         if (result >= neededHours) {
             System.out.printf("Yes!%.0f hours left.", Math.floor(result - neededHours));
-        }
-        else {
+        } else {
             System.out.printf("Not enough time!%.0f hours needed.", Math.floor(neededHours - result));
         }
 
