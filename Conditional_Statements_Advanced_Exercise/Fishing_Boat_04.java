@@ -29,7 +29,7 @@ public class Fishing_Boat_04 {
            price *= 0.85;
        } else {
            price *= 0.75;
-        }
+       }
 
        if (workers % 2 == 0 && !season.equals("Autumn")) {
            price *= 0.95;
@@ -39,7 +39,7 @@ public class Fishing_Boat_04 {
            System.out.printf("Yes! You have %.2f leva left.", budget - price);
        } else {
            System.out.printf("Not enough money! You need %.2f leva.", price - budget);
-        }
+       }
         
     }
 }
