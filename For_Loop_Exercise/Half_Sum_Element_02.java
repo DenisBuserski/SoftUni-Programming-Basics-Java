@@ -22,7 +22,7 @@ public class Half_Sum_Element_02 {
         if (max == sumWithOutMaxNumber) {
             System.out.println("Yes");
             System.out.println("Sum = " + max);
-        }else {
+        } else {
             int diff = Math.abs(max - sumWithOutMaxNumber);
             System.out.println("No");
             System.out.println("Diff = " + diff);
