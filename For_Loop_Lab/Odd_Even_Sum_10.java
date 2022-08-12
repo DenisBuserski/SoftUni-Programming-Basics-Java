@@ -1,8 +1,6 @@
-package ForLoopLab;
-
 import java.util.Scanner;
 
-public class OddEvenSum {
+public class Odd_Even_Sum_10 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -13,25 +11,18 @@ public class OddEvenSum {
 
         for (int i = 1; i <= n; i++) {
             int num1 = Integer.parseInt(scanner.nextLine());
-
             if (i % 2 == 0) {
                 res1 += num1;
-            }
-            else {
+            } else {
                 res2 += num1;
             }
         }
 
         if (res1 == res2) {
             System.out.printf("Yes %nSum = %d", res1);
-        }
-        else {
+        } else {
             System.out.printf("No %nDiff = %d", Math.abs(res1 - res2));
         }
-
-
-
-
 
     }
 }
