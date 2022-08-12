@@ -3,6 +3,7 @@ import java.util.Scanner;
 public class Histogram_03 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+        
         int n = Integer.parseInt(scanner.nextLine());
         int counterP1 = 0;
         int counterP2 = 0;
