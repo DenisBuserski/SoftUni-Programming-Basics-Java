@@ -1,8 +1,6 @@
-package ForLoopLab;
-
 import java.util.Scanner;
 
-public class LeftAndRightSum {
+public class Left_And_Right_Sum_09 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -23,13 +21,9 @@ public class LeftAndRightSum {
 
         if (leftSum == rightSum) {
             System.out.printf("Yes, sum = %d", leftSum);
-        }
-        else {
-
+        } else {
             System.out.printf("No, diff = %d", Math.abs(leftSum - rightSum));
         }
-
-
 
     }
 }
