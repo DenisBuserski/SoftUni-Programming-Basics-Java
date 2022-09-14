@@ -22,7 +22,6 @@ public class House_Painting_07 {
         double allWalls = wallsWithWindows + wallFrontBack;
         double greenPaint = allWalls / green;
 
-
         double roof = 2 * (x * y);
         double roof1 = (x * h / 2);
         double roof2 = 2 * roof1;
