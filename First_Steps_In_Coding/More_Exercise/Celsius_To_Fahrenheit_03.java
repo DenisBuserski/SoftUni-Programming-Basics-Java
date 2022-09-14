@@ -5,7 +5,6 @@ public class Celsius_To_Fahrenheit_03 {
         Scanner scanner = new Scanner(System.in);
 
         double gradusiC = Double.parseDouble(scanner.nextLine());
-
         double gradusiF = gradusiC * 1.8 + 32;
 
         System.out.printf("%.2f", gradusiF);
