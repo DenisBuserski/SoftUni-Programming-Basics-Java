@@ -15,7 +15,7 @@ To learn more about the course you can check [Softuni](https://softuni.bg/)
 - [More Exercise](https://github.com/DenisBuserski/SoftUni-Programming-Basics-Java/tree/main/First_Steps_In_Coding/More_Exercise)
 ### Conditional Statements
 - [Lab](https://github.com/DenisBuserski/SoftUni-Programming-Basics-Java/tree/main/Conditional_Statements/Lab)
-- [Exercise](https://github.com/DenisBuserski/SoftUni-Programming-Basics-Java/tree/main/Conditional_Statements_Exercise)
+- [Exercise](https://github.com/DenisBuserski/SoftUni-Programming-Basics-Java/tree/main/Conditional_Statements/Exercise)
 - [More Exercise](https://github.com/DenisBuserski/SoftUni-Programming-Basics-Java/tree/main/Conditional_Statements_More_Exercises)
 ### Conditional Statements Advanced
 - [Lab](https://github.com/DenisBuserski/SoftUni-Programming-Basics-Java/tree/main/Conditional_Statements_Advanced_Lab)
