@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Fruit_Market {
+public class Fruit_Market_07 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
