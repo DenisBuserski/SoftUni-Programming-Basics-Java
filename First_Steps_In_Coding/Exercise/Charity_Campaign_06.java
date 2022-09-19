@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Charity_Campaign {
+public class Charity_Campaign_06 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
