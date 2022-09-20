@@ -1,23 +1,23 @@
 import java.util.Scanner;
 
-public class Area_Of_Figures_07 {
+public class Area_Of_Figures_06 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         
         double area = 0.0;
         String figure = scanner.nextLine();
         
-        if (figure.equals("square")){
+        if (figure.equals("square")) {
             double a = Double.parseDouble(scanner.nextLine());
             area = a * a;
-        } else if (figure.equals("rectangle")){
+        } else if (figure.equals("rectangle")) {
             double a = Double.parseDouble(scanner.nextLine());
             double b = Double.parseDouble(scanner.nextLine());
             area = a * b;
-        } else if (figure.equals("circle")){
+        } else if (figure.equals("circle")) {
             double r = Double.parseDouble(scanner.nextLine());
             area = r * r * Math.PI;
-        } else if (figure.equals("triangle")){
+        } else if (figure.equals("triangle")) {
             double a = Double.parseDouble(scanner.nextLine());
             double h = Double.parseDouble(scanner.nextLine());
             area = a * h / 2;
