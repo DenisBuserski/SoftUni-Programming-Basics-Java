@@ -6,7 +6,7 @@ public class Password_Guess_04 {
 
         String password = scanner.nextLine();
 
-        if (password.equals("s3cr3t!P@ssw0rd")){
+        if (password.equals("s3cr3t!P@ssw0rd")) {
             System.out.println("Welcome");
         } else {
             System.out.println("Wrong password!");
