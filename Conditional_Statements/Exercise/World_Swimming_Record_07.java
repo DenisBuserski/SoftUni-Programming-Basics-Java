@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class World_Swimming_Record_06 {
+public class World_Swimming_Record_07 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
