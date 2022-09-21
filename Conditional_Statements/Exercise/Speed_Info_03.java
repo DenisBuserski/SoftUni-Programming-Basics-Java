@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Speed_Info {
+public class Speed_Info_03 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
