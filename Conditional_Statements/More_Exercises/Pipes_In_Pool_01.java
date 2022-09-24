@@ -14,12 +14,12 @@ public class Pipes_In_Pool_01 {
         double total = p1Pool + p2Pool;
         double litersOut = total - capacityV;
 
-        if (total <= capacityV){
+        if (total <= capacityV) {
             double result = (total / capacityV) * 100;
             double result1 = (p1Pool / total) * 100;
             double result2 = (p2Pool / total) * 100;
             System.out.printf("The pool is %.2f %% full. Pipe 1: %.2f %%. Pipe 2: %.2f %%.", result, result1, result2);
-        } else if(total > capacityV){
+        } else if (total > capacityV) {
             System.out.printf("For %.2f the pool overflows with %.2f liters.", hours, litersOut);
         }
 
