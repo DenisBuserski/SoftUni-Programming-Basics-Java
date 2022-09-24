@@ -23,7 +23,7 @@ public class Fuel_Tank_Part_2_08 {
         double gasWithoutD = fuel * gas;
         double gasWithD = fuel * gasDiscount;
 
-        if (fuel >= 20 && fuel <= 25){
+        if (fuel >= 20 && fuel <= 25) {
             if (card.equals("Yes")) {
                 if (fuelForCar.equals("Gasoline")){ System.out.printf("%.2f lv.", gasolineWithD - (gasolineWithD * 0.08)); }
                 if (fuelForCar.equals("Diesel")){ System.out.printf("%.2f lv.", dieselWithD - (dieselWithD * 0.08)); }
@@ -43,7 +43,7 @@ public class Fuel_Tank_Part_2_08 {
                 if (fuelForCar.equals("Diesel")) { System.out.printf("%.2f lv.", dieselWithoutD - (dieselWithoutD * 0.10)); }
                 if (fuelForCar.equals("Gas")) { System.out.printf("%.2f lv.", gasWithoutD - (gasWithoutD * 0.10)); }
             }
-        } else if (fuel < 20){
+        } else if (fuel < 20) {
             if (card.equals("Yes")) {
                 if (fuelForCar.equals("Gasoline")) { System.out.printf("%.2f lv.", gasolineWithD); }
                 if (fuelForCar.equals("Diesel")) { System.out.printf("%.2f lv.", dieselWithD); }
