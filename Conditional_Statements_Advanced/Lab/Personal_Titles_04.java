@@ -7,16 +7,16 @@ public class Personal_Titles_04 {
         double age = Double.parseDouble(scanner.nextLine());
         String gender = scanner.nextLine();
 
-        if (age < 16){
-            if (gender.equals("f")){
+        if (age < 16) {
+            if (gender.equals("f")) {
                 System.out.println("Miss");
-            } else if (gender.equals("m")){
+            } else if (gender.equals("m")) {
                 System.out.println("Master");
             }
         } else {
-            if (gender.equals("f")){
+            if (gender.equals("f")) {
                 System.out.println("Ms.");
-            } else if (gender.equals("m")){
+            } else if (gender.equals("m")) {
                 System.out.println("Mr.");
             }
         }
