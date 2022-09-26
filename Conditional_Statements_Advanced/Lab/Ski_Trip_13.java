@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Ski_Trip {
+public class Ski_Trip_13 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -45,5 +45,6 @@ public class Ski_Trip {
             totalPrice = totalPrice * 0.9;
         }
         System.out.printf("%.2f", totalPrice);
+        
     }
 }
