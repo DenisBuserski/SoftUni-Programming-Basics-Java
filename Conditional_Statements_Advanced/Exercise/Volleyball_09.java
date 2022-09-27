@@ -2,7 +2,7 @@ import javax.print.attribute.standard.Finishings;
 import java.util.Scanner;
 import static java.lang.StrictMath.ceil;
 
-public class Volleyball {
+public class Volleyball_09 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
