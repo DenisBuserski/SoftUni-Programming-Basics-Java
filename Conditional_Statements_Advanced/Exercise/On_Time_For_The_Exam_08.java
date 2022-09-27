@@ -34,7 +34,6 @@ public class On_Time_For_The_Exam_08 {
         } else if (arriveTime > examTime) {
             output1 = "Late";
             int difference = arriveTime - examTime;
-
             if (difference < 60) {
                 output2 = String.format("%d minutes after the start", difference);
             } else {
