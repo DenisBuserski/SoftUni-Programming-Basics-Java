@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Hotel_Room _07{
+public class Hotel_Room _07 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
