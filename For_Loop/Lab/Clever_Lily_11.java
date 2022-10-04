@@ -1,8 +1,6 @@
-package ForLoopLab;
-
 import java.util.Scanner;
 
-public class CleverLily {
+public class Clever_Lily_11 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -19,18 +17,18 @@ public class CleverLily {
                 sum += money;
                 sum -= 1;
                 money += 10;
-            }
-            else {
+            } else {
                 toysCount++;
             }
         }
+        
         sum += toyPrice * toysCount;
 
-        if(priceWM <= sum) {
+        if (priceWM <= sum) {
             System.out.printf("Yes! %.2f", sum - priceWM);
-        }
-        else {
+        } else {
             System.out.printf("No! %.2f", priceWM - sum);
         }
+        
     }
 }
