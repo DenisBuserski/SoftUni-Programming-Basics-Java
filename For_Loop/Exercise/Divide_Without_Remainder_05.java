@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Divide_Without_Remainder {
+public class Divide_Without_Remainder_05 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
