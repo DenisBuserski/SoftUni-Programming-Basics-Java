@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Histogram_03 {
+public class Histogram_04 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         
