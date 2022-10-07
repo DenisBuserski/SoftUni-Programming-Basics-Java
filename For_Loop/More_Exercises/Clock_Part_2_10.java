@@ -1,8 +1,6 @@
-package ForLoopMoreExercises;
-
 import java.util.Scanner;
 
-public class ClockPart2 {
+public class Clock_Part_2_10 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
