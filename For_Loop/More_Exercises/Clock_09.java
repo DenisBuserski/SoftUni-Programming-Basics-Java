@@ -1,5 +1,3 @@
-package ForLoopMoreExercises;
-
 import java.util.Scanner;
 
 public class Clock_09 {
