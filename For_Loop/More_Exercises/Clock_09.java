@@ -2,7 +2,7 @@ package ForLoopMoreExercises;
 
 import java.util.Scanner;
 
-public class Clock {
+public class Clock_09 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
