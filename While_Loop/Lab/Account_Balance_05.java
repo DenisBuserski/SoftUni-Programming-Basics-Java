@@ -13,6 +13,7 @@ public class Account_Balance_05 {
                 System.out.println("Invalid operation!");
                 break;
             }
+            
             bankAccount = bankAccount + amount;
             System.out.printf("Increase: %.2f%n", amount);
 
