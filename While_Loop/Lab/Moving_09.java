@@ -1,8 +1,6 @@
-package WhileLoopLab;
-
 import java.util.Scanner;
 
-public class Moving {
+public class Moving_09 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -17,19 +15,16 @@ public class Moving {
             if (input.equals("Done")) {
                 break;
             }
+            
             int boxes = Integer.parseInt(input);
             volume = volume - boxes;
         }
 
         if (volume >= 0) {
             System.out.printf("%d Cubic meters left.", volume);
-        }
-        else {
+        } else {
             System.out.printf("No more free space! You need %s Cubic meters more.", Math.abs(volume));
         }
-
-
-
 
     }
 }
