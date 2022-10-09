@@ -23,6 +23,7 @@ public class Exam_Preparation_02 {
                     break;
                 }
             }
+            
             currentTask = task;
             task = scanner.nextLine();
         }
