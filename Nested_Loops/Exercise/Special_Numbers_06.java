@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Special_Numbers_05 {
+public class Special_Numbers_06 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
