@@ -26,6 +26,7 @@ public class Train_The_Trainers_04 {
                     System.out.printf("%s - %.2f.%n", presentation, avarage);
                 }
             }
+            
             presentation = scanner.nextLine();
 
             if (presentation.equals("Finish")) {
