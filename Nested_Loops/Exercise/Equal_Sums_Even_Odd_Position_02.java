@@ -22,6 +22,7 @@ public class Equal_Sums_Even_Odd_Position_02 {
                     oddSum += digit;
                 }
             }
+            
             if (evenSum == oddSum) {
                 System.out.print(i + " ");
             }
