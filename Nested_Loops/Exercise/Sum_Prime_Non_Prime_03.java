@@ -20,6 +20,7 @@ public class Sum_Prime_Non_Prime_03 {
                         counter++;
                     }
                 }
+                
                 if (counter == 2) {
                     sum1 += number;
                 } else {
