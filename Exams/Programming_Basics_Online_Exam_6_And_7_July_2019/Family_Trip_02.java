@@ -1,8 +1,6 @@
-package ProgrammingBasicsOnlineExam6And7July2019;
-
 import java.util.Scanner;
 
-public class FamilyTrip {
+public class Family_Trip_02 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -16,16 +14,17 @@ public class FamilyTrip {
             double priceAllNights = nights * nightPrice;
             double addCosts = (percetAddCosts / 100) * budget;
             double total = priceAllNights + addCosts;
+            
             if (total <= budget) {
                 System.out.printf("Ivanovi will be left with %.2f leva after vacation.", budget - total);
             } else {
                 System.out.printf("%.2f leva needed.", total - budget);
             }
-        }
-        else {
+        } else {
             double priceAllNights = nights * nightPrice;
             double addCosts = (percetAddCosts / 100) * budget;
             double total = priceAllNights + addCosts;
+            
             if (total <= budget) {
                 System.out.printf("Ivanovi will be left with %.2f leva after vacation.", budget - total);
             } else {
