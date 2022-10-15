@@ -1,8 +1,6 @@
-package ProgrammingBasicsOnlineExam6And7July2019;
-
 import java.util.Scanner;
 
-public class CoffeeMachine {
+public class Coffee_Machine_03 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -52,6 +50,7 @@ public class CoffeeMachine {
                 }
                 break;
         }
+        
         if (sugar.equals("Without")) {
             drinkPrice *= 0.65;
         }
