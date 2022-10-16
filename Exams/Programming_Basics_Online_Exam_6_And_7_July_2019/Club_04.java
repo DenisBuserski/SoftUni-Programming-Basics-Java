@@ -1,8 +1,6 @@
-package ProgrammingBasicsOnlineExam6And7July2019;
-
 import java.util.Scanner;
 
-public class Club {
+public class Club_04 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -19,6 +17,7 @@ public class Club {
                 System.out.printf("Club income - %.2f leva.", finalResult);
                 break;
             }
+            
             int cocktailNum = Integer.parseInt(scanner.nextLine());
 
             int price = cocktail.length();
@@ -34,5 +33,6 @@ public class Club {
                 break;
             }
         }
+        
     }
 }
