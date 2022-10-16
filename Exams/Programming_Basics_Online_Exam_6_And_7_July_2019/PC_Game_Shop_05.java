@@ -1,8 +1,6 @@
-package ProgrammingBasicsOnlineExam6And7July2019;
-
 import java.util.Scanner;
 
-public class PCGameShop {
+public class PC_Game_Shop_05 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -28,6 +26,7 @@ public class PCGameShop {
                 othersNum++;
             }
         }
+        
         double hearthstoneP = (hearthstoneNum / soldGames) * 100;
         double forniteP = (forniteNum / soldGames) * 100;
         double overwatchP = (overwatchNum / soldGames) * 100;
@@ -37,9 +36,5 @@ public class PCGameShop {
         System.out.printf("Fornite - %.2f%%%n", forniteP);
         System.out.printf("Overwatch - %.2f%%%n", overwatchP);
         System.out.printf("Others - %.2f%%%n", othersP);
-
-
-
-
     }
 }
