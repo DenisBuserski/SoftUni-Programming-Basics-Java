@@ -1,8 +1,6 @@
-package ProgrammingBasicsOnlineExam6And7July2019;
-
 import java.util.Scanner;
 
-public class FootballTournament {
+public class Football_Tournament_05 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -12,7 +10,6 @@ public class FootballTournament {
         double wonGames = 0;
         int drawnGames = 0;
         int lostGames = 0;
-
         int wPoints = 0;
         int dPoints = 0;
 
@@ -40,12 +37,9 @@ public class FootballTournament {
             System.out.printf("## D: %d%n", drawnGames);
             System.out.printf("## L: %d%n", lostGames);
             System.out.printf("Win rate: %.2f%%", winRate);
-        }
-        else {
+        } else {
             System.out.printf("%s hasn't played any games during this season.", teamName);
         }
-
-
 
     }
 }
