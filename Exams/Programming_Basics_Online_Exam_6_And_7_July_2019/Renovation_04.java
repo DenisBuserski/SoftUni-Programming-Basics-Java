@@ -1,8 +1,6 @@
-package ProgrammingBasicsOnlineExam6And7July2019;
-
 import java.util.Scanner;
 
-public class Renovation {
+public class Renovation_04 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -10,7 +8,6 @@ public class Renovation {
         int width = Integer.parseInt(scanner.nextLine());
         double percentage = Double.parseDouble(scanner.nextLine());
         double percentage1 = percentage / 100;
-
         double totalSurface = height * width * 4;
         double wallsToPaint = totalSurface - (totalSurface * percentage1);
 
@@ -21,12 +18,9 @@ public class Renovation {
             if (comand.equals("Tired!")) {
                 System.out.printf("%.0f quadratic m left.", wallsToPaint);
                 break;
-
-            }
-            else {
+            } else {
                 int paintNum = Integer.parseInt(comand);
                 wallsToPaint -= paintNum;
-
             }
 
             if (wallsToPaint < 0) {
@@ -38,6 +32,7 @@ public class Renovation {
                 break;
             }
         }
+        
     }
 }
 
