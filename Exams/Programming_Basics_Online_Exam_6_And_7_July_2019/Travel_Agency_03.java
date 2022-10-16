@@ -1,8 +1,6 @@
-package ProgrammingBasicsOnlineExam6And7July2019;
-
 import java.util.Scanner;
 
-public class TravelAgency {
+public class Travel_Agency_03 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -25,11 +23,9 @@ public class TravelAgency {
                         }
                         if (days > 7) {
                             System.out.printf("The price is %.2flv! Have a nice time!", (days * dayPrice) - dayPrice);
-                        }
-                        else if  (days < 7 && days > 1){
+                        } else if  (days < 7 && days > 1) {
                             System.out.printf("The price is %.2flv! Have a nice time!", days * dayPrice);
-                        }
-                        else {
+                        } else {
                             System.out.println("Days must be positive number!");
                         }
                         break;
@@ -42,11 +38,9 @@ public class TravelAgency {
                         }
                         if (days > 7) {
                             System.out.printf("The price is %.2flv! Have a nice time!", (days * dayPrice) - dayPrice);
-                        }
-                        else if  (days < 7 && days > 1){
+                        } else if  (days < 7 && days > 1) {
                             System.out.printf("The price is %.2flv! Have a nice time!", days * dayPrice);
-                        }
-                        else {
+                        } else {
                             System.out.println("Days must be positive number!");
                         }
                         break;
@@ -67,11 +61,9 @@ public class TravelAgency {
                         }
                         if (days > 7) {
                             System.out.printf("The price is %.2flv! Have a nice time!", (days * dayPrice) - dayPrice);
-                        }
-                        else if  (days < 7 && days > 1){
+                        } else if  (days < 7 && days > 1) {
                             System.out.printf("The price is %.2flv! Have a nice time!", days * dayPrice);
-                        }
-                        else {
+                        } else {
                             System.out.println("Days must be positive number!");
                         }
                         break;
@@ -84,11 +76,9 @@ public class TravelAgency {
                         }
                         if (days > 7) {
                             System.out.printf("The price is %.2flv! Have a nice time!", (days * dayPrice) - dayPrice);
-                        }
-                        else if  (days < 7 && days > 1){
+                        } else if  (days < 7 && days > 1) {
                             System.out.printf("The price is %.2flv! Have a nice time!", days * dayPrice);
-                        }
-                        else {
+                        } else {
                             System.out.println("Days must be positive number!");
                         }
                         break;
