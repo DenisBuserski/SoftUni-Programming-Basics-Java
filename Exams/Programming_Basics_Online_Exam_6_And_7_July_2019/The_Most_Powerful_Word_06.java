@@ -1,8 +1,6 @@
-package ProgrammingBasicsOnlineExam6And7July2019;
-
 import java.util.Scanner;
 
-public class TheMostPowerfulWord {
+public class The_Most_Powerful_Word_06 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -12,7 +10,6 @@ public class TheMostPowerfulWord {
 
         while (!command.equals("End of words")) {
             int currentSum = 0;
-
             boolean check = false;
 
             for (int i = 0; i < command.length(); i++) {
@@ -26,18 +23,20 @@ public class TheMostPowerfulWord {
                     check = true;
                 }
             }
+            
             if (check) {
                 currentSum = currentSum * command.length();
             } else {
                 currentSum = currentSum / 3;
             }
+            
             if (currentSum > maxSum) {
                 maxSum = currentSum;
                 word = command;
             }
             command = scanner.nextLine();
         }
+        
         System.out.printf("The most powerful word is %s - %d", word, maxSum);
-
     }
 }
