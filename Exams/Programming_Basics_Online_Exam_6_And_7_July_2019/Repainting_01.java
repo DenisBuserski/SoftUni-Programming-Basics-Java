@@ -1,8 +1,6 @@
-package ProgrammingBasicsOnlineExam6And7July2019;
-
 import java.util.Scanner;
 
-public class Repainting {
+public class Repainting_01 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -16,7 +14,7 @@ public class Repainting {
         double thinnerPrice = thinner * 5;
         double finalPrice = nylonPrice + paintPrice + thinnerPrice + 0.4;
         double finalResult = (finalPrice * 0.3) * paintersHours;
+        
         System.out.printf("Total expenses: %.2f lv.", finalResult + finalPrice);
-
     }
 }
