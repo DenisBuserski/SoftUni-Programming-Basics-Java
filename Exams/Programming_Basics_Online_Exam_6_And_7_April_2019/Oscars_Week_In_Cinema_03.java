@@ -1,8 +1,6 @@
-package ProgrammingBasicsOnlineExam6And7April2019;
-
 import java.util.Scanner;
 
-public class OscarsWeekInCinema {
+public class Oscars_Week_In_Cinema_03 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -65,9 +63,8 @@ public class OscarsWeekInCinema {
                 }
                 break;
         }
+        
         double total = ticketPrice * ticketsNum;
         System.out.printf("%s -> %.2f lv.", filmName, total);
-
-
     }
 }
