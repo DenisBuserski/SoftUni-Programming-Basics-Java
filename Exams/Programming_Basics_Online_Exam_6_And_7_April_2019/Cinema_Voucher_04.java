@@ -1,14 +1,11 @@
-package ProgrammingBasicsOnlineExam6And7April2019;
-
 import java.util.Scanner;
 
-public class CinemaVoucher {
+public class Cinema_Voucher_04 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
         int vaucherPrice = Integer.parseInt(scanner.nextLine());
         String purchase = "";
-
         int tickets = 0;
         int others = 0;
 
@@ -41,6 +38,7 @@ public class CinemaVoucher {
                 }
             }
         }
+        
         System.out.printf("%d%n", tickets);
         System.out.printf("%d", others);
     }
