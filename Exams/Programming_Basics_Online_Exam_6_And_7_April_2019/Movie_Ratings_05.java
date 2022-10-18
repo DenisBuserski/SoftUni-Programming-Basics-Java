@@ -1,8 +1,6 @@
-package ProgrammingBasicsOnlineExam6And7April2019;
-
 import java.util.Scanner;
 
-public class MovieRatings {
+public class Movie_Ratings_05 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -31,12 +29,11 @@ public class MovieRatings {
 
             totalRate += filmRate;
         }
+        
         double avarageRate = totalRate / films;
 
         System.out.printf("%s is with highest rating: %.1f%n", filmMAX, maxRate);
         System.out.printf("%s is with lowest rating: %.1f%n", filmMIN, minRate);
         System.out.printf("Average rating: %.1f", avarageRate);
-
-
     }
 }
