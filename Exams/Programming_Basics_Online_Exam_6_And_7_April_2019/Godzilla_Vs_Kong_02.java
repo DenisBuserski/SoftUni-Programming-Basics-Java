@@ -1,8 +1,6 @@
-package ProgrammingBasicsOnlineExam6And7April2019;
-
 import java.util.Scanner;
 
-public class GodzillaVsKong {
+public class Godzilla_Vs_Kong_02 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -13,6 +11,7 @@ public class GodzillaVsKong {
         double decor = budget * 0.1;
         double clothsPriceTotal = workers * clothsPriceForOneWorker;
         double clothsPriceTotalNew = 0;
+        
         if (workers > 150) {
             clothsPriceTotalNew = clothsPriceTotal - (clothsPriceTotal * 0.1);
         } else {
@@ -28,7 +27,6 @@ public class GodzillaVsKong {
             System.out.printf("Not enough money!%n");
             System.out.printf("Wingard needs %.2f leva more.", totalSum - budget);
         }
-
 
     }
 }
