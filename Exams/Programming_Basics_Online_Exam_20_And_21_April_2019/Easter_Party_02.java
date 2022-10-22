@@ -26,6 +26,7 @@ public class Easter_Party_02 {
         double result = envelopePriceForOne * discount;
         double cakePrice = budget * 0.1;
         double total = guests * result + cakePrice;
+        
         if (total >= budget) {
             System.out.printf("No party! %.2f leva needed.", total - budget);
         } else {
