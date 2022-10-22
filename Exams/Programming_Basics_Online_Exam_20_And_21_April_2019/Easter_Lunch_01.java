@@ -11,7 +11,6 @@ public class Easter_Lunch_01 {
         double easterBreadPrice = easterBreadNum * 3.2;
         double eggsPrice = eggsNum * 4.35;
         double cookiesPrice = cookiesKg * 5.4;
-
         double paintEggsPrice = eggsNum * 12 * 0.15;
 
         double result = easterBreadPrice + eggsPrice + cookiesPrice + paintEggsPrice;
