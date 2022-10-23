@@ -1,5 +1,3 @@
-package ProgrammingBasicsOnlineExam20And21April2019;
-
 import java.util.Scanner;
 
 public class Easter_Eggs_Battle_04 {
