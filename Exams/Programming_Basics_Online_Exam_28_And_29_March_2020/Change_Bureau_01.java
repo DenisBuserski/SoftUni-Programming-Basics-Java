@@ -1,8 +1,6 @@
-package ProgrammingBasicsOnlineExam28And29March2020;
-
 import java.util.Scanner;
 
-public class ChangeBureau {
+public class Change_Bureau_01 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -14,9 +12,7 @@ public class ChangeBureau {
         double comission2 = comission / 100;
         double comission1 = comission2 * result;
         double finalResult = result - comission1;
+        
         System.out.printf("%.2f", finalResult);
-
-
-
     }
 }
