@@ -1,8 +1,6 @@
-package ProgrammingBasicsOnlineExam28And29March2020;
-
 import java.util.Scanner;
 
-public class CatWalking {
+public class Cat_Walking_02 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -12,17 +10,13 @@ public class CatWalking {
 
         int totalMin = min * walks;
         int totalCalories = totalMin * 5;
-
         double result = 0.5 * calories;
 
         if (totalCalories >= result) {
             System.out.printf("Yes, the walk for your cat is enough. Burned calories per day: %d.", totalCalories);
-        }
-        else {
+        } else {
             System.out.printf("No, the walk for your cat is not enough. Burned calories per day: %d.", totalCalories);
         }
-
-
 
     }
 }
