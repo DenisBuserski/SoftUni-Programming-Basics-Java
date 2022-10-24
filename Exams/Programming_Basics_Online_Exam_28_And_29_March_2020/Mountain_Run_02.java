@@ -1,8 +1,6 @@
-package ProgrammingBasicsOnlineExam28And29March2020;
-
 import java.util.Scanner;
 
-public class MountainRun {
+public class Mountain_Run_02 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -16,8 +14,7 @@ public class MountainRun {
 
         if (sec <= totalTime) {
             System.out.printf("No! He was %.2f seconds slower.", totalTime - sec);
-        }
-        else {
+        } else {
             System.out.printf("Yes! The new record is %.2f seconds.", totalTime);
         }
 
