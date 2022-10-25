@@ -1,8 +1,6 @@
-package ProgrammingBasicsOnlineExam28And29March2020;
-
 import java.util.Scanner;
 
-public class EnergyBooster {
+public class Energy_Booster_03 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -69,10 +67,7 @@ public class EnergyBooster {
         if (totalPrice < 400) {
             finalresult = totalPrice;
         }
+        
         System.out.printf("%.2f lv.", finalresult);
-
-
-
-
     }
 }
