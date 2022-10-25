@@ -1,8 +1,6 @@
-package ProgrammingBasicsOnlineExam28And29March2020;
-
 import java.util.Scanner;
 
-public class TrekkingMania {
+public class Trekking_Mania_04 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -36,13 +34,11 @@ public class TrekkingMania {
             }
 
         }
+        
         System.out.printf("%.2f%%%n", (peopleMusala / totalPeople) * 100);
         System.out.printf("%.2f%%%n", (peopleMonblan / totalPeople) * 100);
         System.out.printf("%.2f%%%n", (peopleKiliman / totalPeople) * 100);
         System.out.printf("%.2f%%%n", (peopleK2 / totalPeople) * 100);
         System.out.printf("%.2f%%", (peopleEverest / totalPeople) * 100);
-
-
-
     }
 }
