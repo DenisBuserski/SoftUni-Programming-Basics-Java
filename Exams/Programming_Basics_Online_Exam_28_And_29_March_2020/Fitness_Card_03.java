@@ -1,8 +1,6 @@
-package ProgrammingBasicsOnlineExam28And29March2020;
-
 import java.util.Scanner;
 
-public class FitnessCard {
+public class Fitness_Card_03 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -59,18 +57,14 @@ public class FitnessCard {
 
         if (age <= 19) {
             finalPrice = cardPrice - (cardPrice * 0.2);
-        }
-        else {
+        } else {
             finalPrice = cardPrice;
-
         }
 
         if (money >= finalPrice) {
             System.out.printf("You purchased a 1 month pass for %s.", sport);
-        }
-        else {
+        } else {
             System.out.printf("You don't have enough money! You need $%.2f more.", finalPrice - money);
-
         }
 
     }
