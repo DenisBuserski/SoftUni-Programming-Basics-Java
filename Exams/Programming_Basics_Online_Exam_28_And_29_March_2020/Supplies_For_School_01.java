@@ -1,8 +1,6 @@
-package ProgrammingBasicsOnlineExam28And29March2020;
-
 import java.util.Scanner;
 
-public class SuppliesForSchool {
+public class Supplies_For_School_01 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -21,8 +19,5 @@ public class SuppliesForSchool {
         double total = pensPrice + markersPrice + soapPrice;
         double result = total - ((total * discount) / 100);
         System.out.printf("%.3f", result);
-
-
-
     }
 }
