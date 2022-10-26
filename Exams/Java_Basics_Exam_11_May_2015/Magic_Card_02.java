@@ -1,5 +1,3 @@
-package JAVA_DEVELOPMENT_SOFTUNI.Java_Development.Java_Advanced.Archive.Advanced_Java.Advanced_Java_Exams.Java_Basics_Exam_11_May_2015;
-
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
