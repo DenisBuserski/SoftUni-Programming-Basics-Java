@@ -1,8 +1,6 @@
-package ProgrammingBasicsOnlineExam28And29March2020;
-
 import java.util.Scanner;
 
-public class SuitcasesLoad {
+public class Suitcases_Load_05 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -28,6 +26,7 @@ public class SuitcasesLoad {
             capacity = scanner.nextLine();
 
         }
+        
         if (capacity.equals("End")) {
             System.out.println("Congratulations! All suitcases are loaded!");
         } else {
