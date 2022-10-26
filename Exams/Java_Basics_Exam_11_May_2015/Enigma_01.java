@@ -1,5 +1,3 @@
-package JAVA_DEVELOPMENT_SOFTUNI.Java_Development.Java_Advanced.Archive.Advanced_Java.Advanced_Java_Exams.Java_Basics_Exam_11_May_2015;
-
 import java.util.Scanner;
 
 public class Enigma_01 {
@@ -21,13 +19,9 @@ public class Enigma_01 {
             for (int j = 0; j < line.length(); j++) {
                 if (Character.isDigit(line.charAt(j))) {
                     System.out.print(line.charAt(j));
-                }
-
-                else if (line.charAt(j) == ' ') {
+                } else if (line.charAt(j) == ' ') {
                     System.out.print(" ");
-                }
-
-                else {
+                } else {
                     int ascii = (int) line.charAt(j);
                     System.out.print((char) (ascii + length));
                 }
