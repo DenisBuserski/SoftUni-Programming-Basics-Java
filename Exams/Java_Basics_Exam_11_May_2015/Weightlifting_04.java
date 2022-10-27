@@ -1,5 +1,3 @@
-package JAVA_DEVELOPMENT_SOFTUNI.Java_Development.Java_Advanced.Archive.Advanced_Java.Advanced_Java_Exams.Java_Basics_Exam_11_May_2015;
-
 import java.util.*;
 import java.util.stream.Collectors;
 
@@ -41,15 +39,15 @@ public class Weightlifting_04 {
                     .entrySet()) {
                 toSort.add(e);
             }
+            
             toSort.sort((a, b) -> a.getKey().compareTo(b.getKey()));
 
             print = toSort.stream().map(e -> String.format("%s - %d kg", e.getKey(), e.getValue())).collect(Collectors.toList());
 
             System.out.print(print.toString().replaceAll("[\\[\\]]", ""));
             print.clear();
-
             System.out.println();
-
         }
+        
     }
 }
