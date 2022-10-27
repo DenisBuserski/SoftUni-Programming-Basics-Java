@@ -1,5 +1,3 @@
-package JAVA_DEVELOPMENT_SOFTUNI.Java_Development.Java_Advanced.Archive.Advanced_Java.Advanced_Java_Exams.Java_Basics_Exam_21_Sept_2014_Morning;
-
 import java.util.Scanner;
 
 public class Weird_Strings_03 {
@@ -31,5 +29,4 @@ public class Weird_Strings_03 {
             System.out.println(string);
         }
     }
-
 }
