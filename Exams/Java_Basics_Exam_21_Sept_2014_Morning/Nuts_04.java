@@ -1,5 +1,3 @@
-package JAVA_DEVELOPMENT_SOFTUNI.Java_Development.Java_Advanced.Archive.Advanced_Java.Advanced_Java_Exams.Java_Basics_Exam_21_Sept_2014_Morning;
-
 import java.util.*;
 import java.util.stream.Collectors;
 
@@ -19,12 +17,10 @@ public class Nuts_04 {
 
             int amount = Integer.parseInt(amountString.toString());
 
-
             if (!info.containsKey(company)) {
                 info.put(company, new LinkedHashMap<>());
                 info.get(company).put(nuts, amount);
             } else {
-
                 if (!info.get(company).containsKey(nuts)) {
                     info.get(company).put(nuts, amount);
                 } else {
@@ -33,7 +29,6 @@ public class Nuts_04 {
                 }
             }
         }
-
 
         for (Map.Entry<String, Map<String, Integer>> entry : info.entrySet()) {
             System.out.print(entry.getKey() + ": ");
@@ -45,18 +40,11 @@ public class Nuts_04 {
                     .getValue()
                     .entrySet());
 
-
             print = toSort.stream().map(e -> String.format("%s-%dkg", e.getKey(), e.getValue())).collect(Collectors.toList());
-
             System.out.print(print.toString().replaceAll("[\\[\\]]", ""));
             print.clear();
-
             System.out.println();
-
-
-
         }
-
 
     }
 }
