@@ -1,5 +1,3 @@
-package JAVA_DEVELOPMENT_SOFTUNI.Java_Development.Java_Advanced.Archive.Advanced_Java.Advanced_Java_Exams.Java_Basics_Exam_21_Sept_2014_Evening;
-
 import java.util.Arrays;
 import java.util.Scanner;
 
@@ -13,9 +11,7 @@ public class Mirror_Numbers_01 {
         int count = 0;
         for (int index1 = 0; index1 < numbers.length; index1++) {
             for (int index2 = index1 + 1; index2 < numbers.length; index2++) {
-
                 int reverseSecondNumber = getRevered(numbers[index2]);
-
 
                 if (numbers[index1] == reverseSecondNumber) {
                     System.out.printf("%d<!>%d%n", numbers[index1], numbers[index2]);
@@ -26,7 +22,6 @@ public class Mirror_Numbers_01 {
         if (count == 0) {
             System.out.println("No");
         }
-
 
     }
 
@@ -39,4 +34,5 @@ public class Mirror_Numbers_01 {
         }
         return reversed;
     }
+    
 }
