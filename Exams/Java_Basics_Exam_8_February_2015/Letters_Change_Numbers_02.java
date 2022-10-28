@@ -1,5 +1,3 @@
-package JAVA_DEVELOPMENT_SOFTUNI.Java_Development.Java_Advanced.Archive.Advanced_Java.Advanced_Java_Exams.Java_Basics_Exam_8_February_2015;
-
 import java.util.Scanner;
 
 public class Letters_Change_Numbers_02 {
@@ -27,7 +25,6 @@ public class Letters_Change_Numbers_02 {
                 currentSum = number * firstLetterNum;
             }
 
-
             if (lastLetter.charAt(0) >= 65 && lastLetter.charAt(0) <= 90) { // Last letter - Upper
                 LastLetterNum = lastLetter.charAt(0) - 64;
                 currentSum -= LastLetterNum;
@@ -35,8 +32,8 @@ public class Letters_Change_Numbers_02 {
                 LastLetterNum = lastLetter.charAt(0) - 96;
                 currentSum += LastLetterNum;
             }
+            
             totalSum += currentSum;
-
         }
 
         System.out.printf("%.2f", totalSum);
