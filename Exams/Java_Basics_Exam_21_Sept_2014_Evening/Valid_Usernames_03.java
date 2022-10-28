@@ -1,5 +1,3 @@
-package JAVA_DEVELOPMENT_SOFTUNI.Java_Development.Java_Advanced.Archive.Advanced_Java.Advanced_Java_Exams.Java_Basics_Exam_21_Sept_2014_Evening;
-
 import java.util.ArrayList;
 import java.util.Scanner;
 import java.util.regex.Matcher;
@@ -36,7 +34,5 @@ public class Valid_Usernames_03 {
         for (String string : longestTwoWords) {
             System.out.println(string);
         }
-
-
     }
 }
