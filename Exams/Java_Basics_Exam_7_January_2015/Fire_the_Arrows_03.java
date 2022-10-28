@@ -1,5 +1,3 @@
-package JAVA_DEVELOPMENT_SOFTUNI.Java_Development.Java_Advanced.Archive.Advanced_Java.Advanced_Java_Exams.Java_Basics_Exam_7_January_2015;
-
 import java.util.Scanner;
 
 public class Fire_the_Arrows_03 {
@@ -16,14 +14,11 @@ public class Fire_the_Arrows_03 {
 
         boolean hasMoved = true;
         while (hasMoved) {
-
             hasMoved = false;
 
             for (int row = 0; row < matrix.length; row++) {
                 for (int col = 0; col < matrix[row].length; col++) {
-
                     int currentRow = row, currentCol = col;
-
                     char symbol = matrix[currentRow][currentCol];
 
                     if (symbol != 'o') {
@@ -73,6 +68,6 @@ public class Fire_the_Arrows_03 {
             }
             System.out.println();
         }
-
     }
+    
 }
