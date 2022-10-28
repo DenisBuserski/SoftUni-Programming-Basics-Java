@@ -1,5 +1,3 @@
-package JAVA_DEVELOPMENT_SOFTUNI.Java_Development.Java_Advanced.Archive.Advanced_Java.Advanced_Java_Exams.Java_Basics_Exam_7_January_2015;
-
 import java.util.*;
 
 public class School_System_04 {
@@ -29,7 +27,6 @@ public class School_System_04 {
                 } else {
                     studentsInfo.get(fullName).get(subject).add(grade);
                 }
-
             }
         }
 
@@ -38,29 +35,25 @@ public class School_System_04 {
             System.out.print("[");
             List<String> print = new ArrayList<>();
 
-
             entry.getValue()
                     .entrySet()
                     .stream()
                     .forEach(e -> {
                         double sum = 0;
-
                         int size = e.getValue().size();
                         for (int i = 0; i < size; i++) {
                             sum += e.getValue().get(i);
                         }
+                        
                         double avgSum = sum / size;
-
                         String format = String.format("%s - %.2f", e.getKey(), avgSum);
-
                         print.add(format);
-
                     });
+            
             System.out.print(print.toString().replaceAll("[\\[\\]]", ""));
             print.clear();
             System.out.println("]");
         }
-
 
     }
 }
