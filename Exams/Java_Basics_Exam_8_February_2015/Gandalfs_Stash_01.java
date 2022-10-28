@@ -1,5 +1,3 @@
-package JAVA_DEVELOPMENT_SOFTUNI.Java_Development.Java_Advanced.Archive.Advanced_Java.Advanced_Java_Exams.Java_Basics_Exam_8_February_2015;
-
 import java.util.Scanner;
 
 public class Gandalfs_Stash_01 {
@@ -9,9 +7,7 @@ public class Gandalfs_Stash_01 {
         int startingMood = Integer.parseInt(scanner.nextLine());
         String [] input = scanner.nextLine().split("[^a-zA-Z]+\\s*");
 
-
         for (String food : input) {
-
             switch (food.toLowerCase()) {
                 case "cram":
                     startingMood += 2;
@@ -32,12 +28,11 @@ public class Gandalfs_Stash_01 {
                 default:
                     startingMood -= 1;
                     break;
-
             }
-
         }
 
         System.out.println(startingMood);
+        
         if (startingMood < -5) {
             System.out.println("Angry");
         } else if (startingMood >= -5 && startingMood <= 0) {
