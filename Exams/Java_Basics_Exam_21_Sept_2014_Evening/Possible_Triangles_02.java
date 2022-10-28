@@ -1,5 +1,3 @@
-package JAVA_DEVELOPMENT_SOFTUNI.Java_Development.Java_Advanced.Archive.Advanced_Java.Advanced_Java_Exams.Java_Basics_Exam_21_Sept_2014_Evening;
-
 import java.util.Scanner;
 
 public class Possible_Triangles_02 {
@@ -35,6 +33,7 @@ public class Possible_Triangles_02 {
                 count++;
             }
         }
+        
         if (count == 0) {
             System.out.println("No");
         }
