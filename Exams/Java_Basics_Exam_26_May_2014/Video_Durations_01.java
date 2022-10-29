@@ -1,5 +1,3 @@
-package JAVA_DEVELOPMENT_SOFTUNI.Java_Development.Java_Advanced.Archive.Advanced_Java.Advanced_Java_Exams.Java_Basics_Exam_26_May_2014;
-
 import java.util.Scanner;
 
 public class Video_Durations_01 {
@@ -17,19 +15,14 @@ public class Video_Durations_01 {
 
             totalHours += hours;
 
-
-
-
             if (totalMinutes + minutes <= 59) {
                 totalMinutes += minutes;
             } else {
                 totalHours++;
                 totalMinutes = (minutes + totalMinutes) - 60;
             }
-
-
-
         }
+        
         if (String.valueOf(totalMinutes).length() == 1) {
             System.out.printf("%d:0%d", totalHours, totalMinutes);
         } else {
