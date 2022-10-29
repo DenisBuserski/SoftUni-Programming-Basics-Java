@@ -1,5 +1,3 @@
-package JAVA_DEVELOPMENT_SOFTUNI.Java_Development.Java_Advanced.Archive.Advanced_Java.Advanced_Java_Exams.Java_Basics_Exam_27_May_2014;
-
 import java.util.Scanner;
 
 public class Longest_Odd_Even_Sequence_03 {
@@ -7,9 +5,9 @@ public class Longest_Odd_Even_Sequence_03 {
         Scanner scanner = new Scanner(System.in);
 
         String inputLine = scanner.nextLine();
-
         String[] numbers = inputLine.split("[ ()]+");
-        int[] nums = new int[numbers.length-1];
+        int[] nums = new int[numbers.length - 1];
+        
         for (int i = 0; i < nums.length; i++) {
             nums[i] = Integer.parseInt(numbers[i+1]);
         }
@@ -27,6 +25,7 @@ public class Longest_Odd_Even_Sequence_03 {
                 shouldBeOdd = isOdd;
                 len = 1;
             }
+            
             shouldBeOdd = !shouldBeOdd;
             if (len > bestLen) {
                 bestLen = len;
@@ -34,7 +33,5 @@ public class Longest_Odd_Even_Sequence_03 {
         }
 
         System.out.println(bestLen);
-
-
     }
 }
