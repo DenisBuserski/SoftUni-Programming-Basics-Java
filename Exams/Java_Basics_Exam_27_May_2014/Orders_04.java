@@ -1,5 +1,3 @@
-package JAVA_DEVELOPMENT_SOFTUNI.Java_Development.Java_Advanced.Archive.Advanced_Java.Advanced_Java_Exams.Java_Basics_Exam_27_May_2014;
-
 import java.util.*;
 import java.util.stream.Collectors;
 
@@ -20,7 +18,6 @@ public class Orders_04 {
                 shop.put(product, new LinkedHashMap<>());
                 shop.get(product).put(customer, amount);
             } else {
-
                 if (!shop.get(product).containsKey(customer)) {
                     shop.get(product).put(customer, amount);
                 } else {
@@ -28,9 +25,7 @@ public class Orders_04 {
                     shop.get(product).put(customer, oldAmount + amount);
                 }
             }
-
         }
-
 
         for (Map.Entry<String, Map<String, Integer>> entry : shop.entrySet()) {
             System.out.print(entry.getKey() + ": ");
@@ -38,21 +33,16 @@ public class Orders_04 {
 
             List<Map.Entry<String, Integer>> toSort = new ArrayList<>();
 
-            for (Map.Entry<String, Integer> e : entry
-                    .getValue()
-                    .entrySet()) {
+            for (Map.Entry<String, Integer> e : entry.getValue().entrySet()) {
                 toSort.add(e);
             }
             toSort.sort((a, b) -> a.getKey().compareTo(b.getKey()));
 
             print = toSort.stream().map(e -> String.format("%s %d", e.getKey(), e.getValue())).collect(Collectors.toList());
-
             System.out.print(print.toString().replaceAll("[\\[\\]]", ""));
             print.clear();
-
             System.out.println();
         }
-
 
     }
 }
