@@ -1,5 +1,3 @@
-package JAVA_DEVELOPMENT_SOFTUNI.Java_Development.Java_Advanced.Archive.Advanced_Java.Advanced_Java_Exams.Java_Basics_Exam_8_February_2015;
-
 import java.util.LinkedHashMap;
 import java.util.Map;
 import java.util.Scanner;
@@ -23,7 +21,6 @@ public class User_Logs_04 {
             if (!messagesInfo.containsKey(user)) {
                 ipInfo.put(ip, 1);
             } else {
-
                 if (!ipInfo.containsKey(ip)) {
                     ipInfo.put(ip, 1);
                 } else {
@@ -44,16 +41,11 @@ public class User_Logs_04 {
 
             int count = 1;
             for (var innerMap : messageIP.entrySet()) {
-                String output =
-                        String.format(count < messageIP.entrySet().size() ? "%s => %d, " : "%s => %d.%n", innerMap.getKey(), innerMap.getValue());
+                String output = String.format(count < messageIP.entrySet().size() ? "%s => %d, " : "%s => %d.%n", innerMap.getKey(), innerMap.getValue());
                 System.out.printf("%s", output);
                 count++;
-
-
             }
         }
-
-
 
     }
 }
