@@ -1,5 +1,3 @@
-package JAVA_DEVELOPMENT_SOFTUNI.Java_Development.Java_Advanced.Archive.Advanced_Java.Advanced_Java_Exams.Java_Basics_Exam_27_May_2014;
-
 import java.util.Scanner;
 
 public class Count_Beers_01 {
@@ -13,6 +11,7 @@ public class Count_Beers_01 {
             if (orderLine.equals("End")) {
                 break;
             }
+            
             String[] order = orderLine.split(" ");
             int beers = Integer.parseInt(order[0]);
             if (order[1].equals("stacks")) {
@@ -20,7 +19,7 @@ public class Count_Beers_01 {
             }
             totalBeers += beers;
         }
+        
         System.out.printf("%d stacks + %d beers\n", totalBeers / 20, totalBeers % 20);
     }
-
 }
