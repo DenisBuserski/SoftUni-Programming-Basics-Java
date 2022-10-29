@@ -1,5 +1,3 @@
-package JAVA_DEVELOPMENT_SOFTUNI.Java_Development.Java_Advanced.Archive.Advanced_Java.Advanced_Java_Exams.Java_Basics_Exam_8_February_2015;
-
 import java.util.*;
 
 public class Lego_Blocks_03 {
@@ -12,7 +10,6 @@ public class Lego_Blocks_03 {
 
         readInputMatrix(scanner, n, firstArr);
         readInputMatrix(scanner, n, secondArr);
-
         mergeMatrices(firstArr, secondArr);
 
         boolean isRectangular = false;
@@ -55,4 +52,5 @@ public class Lego_Blocks_03 {
             }
         }
     }
+    
 }
