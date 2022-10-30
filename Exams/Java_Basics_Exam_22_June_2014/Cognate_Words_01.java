@@ -1,5 +1,3 @@
-package JAVA_DEVELOPMENT_SOFTUNI.Java_Development.Java_Advanced.Archive.Advanced_Java.Advanced_Java_Exams.Java_Basics_Exam_22_June_2014;
-
 import java.util.HashSet;
 import java.util.Scanner;
 import java.util.Set;
@@ -9,16 +7,13 @@ public class Cognate_Words_01 {
         Scanner scanner = new Scanner(System.in);
 
         String[] input = scanner.nextLine().split("[^A-z]+");
-
         Set<String> outputs = new HashSet<>();
 
         int count = 0;
         for (int index1 = 0; index1 < input.length; index1++) {
             for (int index2 = 0; index2 < input.length; index2++) {
                 for (int index3 = 0; index3 < input.length; index3++) {
-
                     String firstWord = input[index1].concat(input[index2]);
-
                     if (firstWord.equals(input[index3])) {
                         String out = input[index1] + "|" + input[index2] + "=" + input[index3];
                         outputs.add(out);
@@ -33,7 +28,5 @@ public class Cognate_Words_01 {
         } else {
             outputs.forEach(System.out::println);
         }
-
-
     }
 }
