@@ -1,5 +1,3 @@
-package JAVA_DEVELOPMENT_SOFTUNI.Java_Development.Java_Advanced.Archive.Advanced_Java.Advanced_Java_Exams.Java_Basics_Exam_26_May_2014;
-
 import java.util.Scanner;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -38,7 +36,6 @@ public class Largest_3_Rectangles_03 {
                 biggestArea = firstArea + secondArea + thirdArea;
             }
         }
-
 
         System.out.println(biggestArea);
     }
