@@ -1,5 +1,3 @@
-package JAVA_DEVELOPMENT_SOFTUNI.Java_Development.Java_Advanced.Archive.Advanced_Java.Advanced_Java_Exams.Java_Basics_Exam_26_May_2014;
-
 import java.util.HashSet;
 import java.util.Scanner;
 
@@ -8,8 +6,8 @@ public class Pythagorean_Numbers_02 {
         Scanner scanner = new Scanner(System.in);
 
         int n = scanner.nextInt();
-
         int[] nums = new int[n];
+        
         for (int i = 0; i < nums.length; i++) {
             nums[i] = scanner.nextInt();
         }
@@ -18,6 +16,7 @@ public class Pythagorean_Numbers_02 {
         for (int num : nums) {
             squares.add(num * num);
         }
+        
         int count = 0;
         for (int a : nums) {
             for (int b : nums) {
@@ -29,9 +28,9 @@ public class Pythagorean_Numbers_02 {
                 }
             }
         }
+        
         if (count == 0) {
             System.out.println("No");
         }
     }
-
 }
