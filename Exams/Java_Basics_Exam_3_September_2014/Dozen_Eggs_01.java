@@ -1,5 +1,3 @@
-package JAVA_DEVELOPMENT_SOFTUNI.Java_Development.Java_Advanced.Archive.Advanced_Java.Advanced_Java_Exams.Java_Basics_Exam_3_September_2014;
-
 import java.util.Scanner;
 
 public class Dozen_Eggs_01 {
@@ -7,7 +5,6 @@ public class Dozen_Eggs_01 {
         Scanner scanner = new Scanner(System.in);
 
         int n = 7;
-
         // 1 dozen = 12 eggs
 
         int eggsSum = 0;
@@ -24,16 +21,11 @@ public class Dozen_Eggs_01 {
                 dozensSum += number;
             }
 
-
             if (eggsSum >= 12) {
                 int a = eggsSum / 12;
                 eggsSum %= 12;
                 dozensSum += a;
             }
-
-
-
-
         }
 
         System.out.println(dozensSum + " dozens + " + eggsSum + " eggs");
