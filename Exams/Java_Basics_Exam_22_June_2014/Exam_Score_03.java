@@ -1,5 +1,3 @@
-package JAVA_DEVELOPMENT_SOFTUNI.Java_Development.Java_Advanced.Archive.Advanced_Java.Advanced_Java_Exams.Java_Basics_Exam_22_June_2014;
-
 import java.util.*;
 
 public class Exam_Score_03 {
@@ -26,7 +24,6 @@ public class Exam_Score_03 {
             fillStudentsMap(students, fullName, examScore);
 
             fillGradesMap(grades, examScore, grade);
-
         }
 
         for (Map.Entry<Integer, List<String>> entry : students.entrySet()) {
@@ -36,7 +33,6 @@ public class Exam_Score_03 {
             double average = grades.get(entry.getKey()).stream().mapToDouble(a -> a).average().orElse(0.0);
             System.out.printf("avg=%.2f%n", average);
         }
-
 
     }
 
@@ -57,4 +53,5 @@ public class Exam_Score_03 {
             students.get(examScore).add(fullName);
         }
     }
+    
 }
