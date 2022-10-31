@@ -1,5 +1,3 @@
-package JAVA_DEVELOPMENT_SOFTUNI.Java_Development.Java_Advanced.Archive.Advanced_Java.Advanced_Java_Exams.Java_Basics_Exam_22_June_2014;
-
 import java.util.Scanner;
 
 public class Durts_02 {
@@ -24,24 +22,15 @@ public class Durts_02 {
         for (int i = 0; i < n; i++) {
             int x = sc.nextInt();
             int y = sc.nextInt();
-            boolean inside =
-                    isPointInRectangle(
-                            x, y,
-                            verticalRectMinX, verticalRectMaxX,
-                            verticalRectMinY, verticalRectMaxY) ||
-                            isPointInRectangle(
-                                    x, y,
-                                    horizontalRectMinX, horizontalRectMaxX,
-                                    horizontalRectMinY, horizontalRectMaxY);
+            boolean inside = isPointInRectangle(x, y, verticalRectMinX, verticalRectMaxX, verticalRectMinY, verticalRectMaxY) ||
+                            isPointInRectangle(x, y, horizontalRectMinX, horizontalRectMaxX, horizontalRectMinY, horizontalRectMaxY);
             System.out.println(inside ? "yes" : "no");
         }
     }
 
-    private static boolean isPointInRectangle(int x, int y,
-                                              double minX, double maxX, double minY, double maxY) {
+    private static boolean isPointInRectangle(int x, int y, double minX, double maxX, double minY, double maxY) {
         boolean inside = (x >= minX) && (x <= maxX) && (y >= minY) && (y <= maxY);
         return inside;
     }
-
 
 }
