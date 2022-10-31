@@ -1,18 +1,15 @@
-package JAVA_DEVELOPMENT_SOFTUNI.Java_Development.Java_Advanced.Archive.Advanced_Java.Advanced_Java_Exams.Java_Basics_Exam_22_June_2014;
-
 import java.util.*;
 
 public class Straight_Flush_04 {
     public static void main(String[] args) {
         Scanner sc = new Scanner (System.in);
+        
         String[] inputCards = sc.nextLine().split("\\W+");
-
         HashSet<String> existingCards = new HashSet<>();
         existingCards.addAll(Arrays.asList(inputCards));
 
         int count = 0;
         for (String startCard : inputCards) {
-
             String cardFace = startCard.substring(0, startCard.length() - 1);
             String cardSuit = startCard.substring(startCard.length() - 1);
 
@@ -42,4 +39,5 @@ public class Straight_Flush_04 {
         }
         return null;
     }
+    
 }
