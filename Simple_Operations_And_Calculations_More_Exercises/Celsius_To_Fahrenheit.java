@@ -1,8 +1,6 @@
-package SimpleOperationsAndCalculationsMoreExercises;
-
 import java.util.Scanner;
 
-public class CelsiusToFahrenheit {
+public class Celsius_To_Fahrenheit {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -11,6 +9,5 @@ public class CelsiusToFahrenheit {
         double gradusiF = gradusiC * 1.8 +32;
 
         System.out.printf("%.2f", gradusiF);
-
     }
 }
