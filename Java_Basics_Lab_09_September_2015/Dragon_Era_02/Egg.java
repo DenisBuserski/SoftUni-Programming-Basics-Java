@@ -1,4 +1,4 @@
-package JAVA_DEVELOPMENT_SOFTUNI.Java_Development.Java_Advanced.Archive.Advanced_Java.Advanced_Java_Exams.Java_Basics_Lab_09_September_2015.Dragon_Era_02;
+package Dragon_Era_02;
 
 public class Egg {
     private final int AGE_HATCH = 2;
@@ -37,8 +37,7 @@ public class Egg {
     }
 
     public void hatch(){
-
-        if(this.age == AGE_HATCH){
+        if (this.age == AGE_HATCH) {
             int yearFactor = this.yearFactor.ordinal();
             for (int i = 0; i <yearFactor ; i++) {
                 Dragon baby = new Dragon(this.parent.getName()+"/Dragon_" + Dragon.dragonsCount,-1);
@@ -47,4 +46,5 @@ public class Egg {
             }
         }
     }
+    
 }
