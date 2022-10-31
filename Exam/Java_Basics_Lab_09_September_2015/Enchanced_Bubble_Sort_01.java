@@ -1,5 +1,3 @@
-package JAVA_DEVELOPMENT_SOFTUNI.Java_Development.Java_Advanced.Archive.Advanced_Java.Advanced_Java_Exams.Java_Basics_Lab_09_September_2015;
-
 import java.util.ArrayList;
 import java.util.Scanner;
 
@@ -10,7 +8,7 @@ public class Enchanced_Bubble_Sort_01 {
         String[] numbers = scanner.nextLine().replace("[", "").replace("]", "").split(", ");
         ArrayList<Integer> numbersArr = new ArrayList<Integer>();
 
-        //TODO: Parse the numbers and add them to the list
+        // TODO: Parse the numbers and add them to the list
 
 //        StopWatch stopWatch = new StopWatch();
 //        stopWatch.start();
@@ -18,7 +16,7 @@ public class Enchanced_Bubble_Sort_01 {
             numbersArr.add(Integer.parseInt(number));
         }
 
-        //TODO: Write the sorting algorithm that you use for sorting the List's elements
+        // TODO: Write the sorting algorithm that you use for sorting the List's elements
 
         // Collections.sort(numbersArr);
         for (int i = 0; i < numbersArr.size(); i++) {
