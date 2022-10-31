@@ -1,8 +1,6 @@
-package SimpleOperationsAndCalculationsMoreExercises;
-
 import java.util.Scanner;
 
-public class CircleAreaAndPerimeter {
+public class Circle_Area_And_Perimeter {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
