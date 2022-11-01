@@ -1,5 +1,3 @@
-package SimpleOperationsAndCalculationsMoreExercises;
-
 import java.util.Scanner;
 
 public class Fishland {
