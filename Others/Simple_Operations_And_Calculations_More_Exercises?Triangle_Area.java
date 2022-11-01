@@ -1,8 +1,6 @@
-package SimpleOperationsAndCalculationsMoreExercises;
-
 import java.util.Scanner;
 
-public class TriangleArea {
+public class Triangle_Area {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -12,6 +10,5 @@ public class TriangleArea {
         double area = strana * visochina / 2;
 
         System.out.printf("%.2f", area);
-
     }
 }
