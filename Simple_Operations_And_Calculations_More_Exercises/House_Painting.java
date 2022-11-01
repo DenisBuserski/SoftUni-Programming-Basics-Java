@@ -1,8 +1,6 @@
-package SimpleOperationsAndCalculationsMoreExercises;
-
 import java.util.Scanner;
 
-public class HousePainting {
+public class House_Painting {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
