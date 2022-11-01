@@ -1,8 +1,6 @@
-package Exam092020;
-
 import java.util.Scanner;
 
-public class DeerOfSanta {
+public class Deer_Of_Santa_02 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -20,8 +18,7 @@ public class DeerOfSanta {
         if (totalFood < foodKg) {
             double result = foodKg - totalFood;
             System.out.printf("%.0f kilos of food left.", Math.floor(result));
-        }
-        else {
+        } else {
             double result1 = totalFood - foodKg;
             System.out.printf("%.0f more kilos of food are needed.", Math.ceil(result1));
         }
