@@ -1,8 +1,6 @@
-package SimpleOperationsAndCalculationsMoreExercises;
-
 import java.util.Scanner;
 
-public class TrainingLab {
+public class Training_Lab {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -22,7 +20,5 @@ public class TrainingLab {
         int result = (desksOnRow * rows) - 3;
 
         System.out.println(result);
-
-
     }
 }
