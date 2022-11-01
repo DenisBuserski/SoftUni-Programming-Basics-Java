@@ -1,8 +1,6 @@
-package SimpleOperationsAndCalculationsMoreExercises;
-
 import java.util.Scanner;
 
-public class WeatherForecast {
+public class Weather_Forecast {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -10,8 +8,7 @@ public class WeatherForecast {
 
         if (text.equals("sunny")){
             System.out.println("It's warm outside!");
-        }
-        else {
+        } else {
             System.out.println("It's cold outside!");
         }
     }
