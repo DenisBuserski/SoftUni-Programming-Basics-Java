@@ -1,8 +1,6 @@
-package SimpleOperationsAndCalculationsMoreExercises;
-
 import java.util.Scanner;
 
-public class VegetableMarket {
+public class Vegetable_Market {
     public static void main(String[] args) {
         Scanner  scanner = new Scanner(System.in);
 
