@@ -1,8 +1,6 @@
-package Exam092020;
-
 import java.util.Scanner;
 
-public class ChristmasPreparation {
+public class Christmas_Preparation_01 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -17,7 +15,6 @@ public class ChristmasPreparation {
         double totalPrice = pricePaper + priceCloth + priceGlue;
         double discountPercentege = discount / 100;
         double result = totalPrice - (totalPrice * discountPercentege);
-
 
         System.out.printf("%.3f", result);
     }
