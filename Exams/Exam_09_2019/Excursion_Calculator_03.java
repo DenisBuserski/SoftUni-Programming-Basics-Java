@@ -1,8 +1,6 @@
-package Exam092020;
-
 import java.util.Scanner;
 
-public class ExcursionCalculator {
+public class Excursion_Calculator_03 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -19,8 +17,7 @@ public class ExcursionCalculator {
                 if (people > 5) {
                     pricePerPerson = 48;
                     finalPrice = pricePerPerson * people;
-                }
-                else {
+                } else {
                     pricePerPerson = 50;
                     finalPrice = pricePerPerson * people;
                 }
@@ -29,8 +26,7 @@ public class ExcursionCalculator {
                 if (people > 5) {
                     pricePerPerson = 45;
                     finalPrice = (pricePerPerson * people) * 0.85;
-                }
-                else {
+                } else {
                     pricePerPerson = 48.5;
                     finalPrice = (pricePerPerson * people) * 0.85;
                 }
@@ -39,8 +35,7 @@ public class ExcursionCalculator {
                 if (people > 5) {
                     pricePerPerson = 49.5;
                     finalPrice = pricePerPerson * people;
-                }
-                else {
+                } else {
                     pricePerPerson = 60;
                     finalPrice = pricePerPerson * people;
                 }
@@ -49,8 +44,7 @@ public class ExcursionCalculator {
                 if (people > 5) {
                     pricePerPerson = 85;
                     finalPrice = (pricePerPerson * people) * 1.08;
-                }
-                else {
+                } else {
                     pricePerPerson = 86;
                     finalPrice = (pricePerPerson * people) * 1.08;
                 }
@@ -58,8 +52,5 @@ public class ExcursionCalculator {
         }
 
         System.out.printf("%.2f leva.", finalPrice);
-
-
-
     }
 }
