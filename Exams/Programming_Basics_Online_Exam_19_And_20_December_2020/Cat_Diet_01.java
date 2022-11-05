@@ -1,8 +1,6 @@
-package ProgrammingBasicsOnlineExam19And20December2020;
-
 import java.util.Scanner;
 
-public class CatDiet {
+public class Cat_Diet_01 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -19,8 +17,7 @@ public class CatDiet {
         double totalFood = fat + protein + carbs;
         double result = total / totalFood;
         double result1 = ((100 - waterP) / 100) * result;
+        
         System.out.printf("%.4f", result1);
-
-
     }
 }
