@@ -1,8 +1,6 @@
-package ProgrammingBasicsOnlineExam19And20December2020;
-
 import java.util.Scanner;
 
-public class Workout {
+public class Workout_04 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -16,19 +14,16 @@ public class Workout {
 
             double km = kmFirstDay * ((percent + 100) / 100);
             kmFirstDay = km;
-
             totalKm += km;
-
         }
+        
         totalKm += kmFirstDay1;
 
         if (totalKm < 1000) {
             System.out.printf("Sorry Mrs. Ivanova, you need to run %.0f more kilometers", Math.ceil(1000 - totalKm));
-        }
-        else {
+        } else {
             System.out.printf("You've done a great job running %.0f more kilometers!", Math.ceil(totalKm - 1000));
         }
-
 
     }
 }
