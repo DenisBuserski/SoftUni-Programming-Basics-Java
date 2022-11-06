@@ -1,8 +1,6 @@
-package ProgrammingBasicsOnlineExam19And20December2020;
-
 import java.util.Scanner;
 
-public class HairSalon {
+public class Hair_Salon_05 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -13,7 +11,7 @@ public class HairSalon {
         while (!comand.equals("closed")) {
             String haircutOrColor = scanner.nextLine();
 
-            if(haircutOrColor.equals("closed")) {
+            if (haircutOrColor.equals("closed")) {
                 break;
             }
 
@@ -38,14 +36,15 @@ public class HairSalon {
                     income += 30;
                 }
             }
+            
             if (income >= dayTarget) {
                 System.out.printf("You have reached your target for the day!%n");
                 System.out.printf("Earned money: %dlv.", income);
                 break;
             }
 
-
         }
+        
         if (income < dayTarget) {
             System.out.printf("Target not reached! You need %dlv. more.%n", dayTarget - income);
             System.out.printf("Earned money: %dlv.", income);
