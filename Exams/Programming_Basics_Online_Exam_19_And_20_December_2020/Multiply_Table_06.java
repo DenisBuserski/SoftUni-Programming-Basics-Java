@@ -1,8 +1,6 @@
-package ProgrammingBasicsOnlineExam19And20December2020;
-
 import java.util.Scanner;
 
-public class MultiplyTable {
+public class Multiply_Table_06 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -22,18 +20,15 @@ public class MultiplyTable {
             number = number / 10;
         }
 
-
         for (int a = 1; a <= number1; a++) {
             for (int b = 1; b <= number2; b++) {
                 for (int c = 1; c <= number3; c++) {
-
                     int result = a * b * c;
                     System.out.printf("%d * %d * %d = %d;%n", a, b, c, result);
 
                 }
             }
         }
-
 
     }
 }
