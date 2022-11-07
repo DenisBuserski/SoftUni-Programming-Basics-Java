@@ -1,5 +1,3 @@
-package JAVA_DEVELOPMENT_SOFTUNI.Java_Development.Java_Advanced.Archive.Advanced_Java.Advanced_Java_Exams.Java_Basics_Exam_1_June_2014;
-
 import java.util.*;
 
 public class Sum_Cards_02 {
@@ -19,6 +17,7 @@ public class Sum_Cards_02 {
             } else {
                 count = 1;
             }
+            
             sum = sum + value;
             if (count == 2){
                 sum = sum + 2 * value;
