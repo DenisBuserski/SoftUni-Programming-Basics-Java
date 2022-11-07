@@ -33,6 +33,9 @@ To learn more about the course you can check [Softuni](https://softuni.bg/)
 - [Lab](https://github.com/DenisBuserski/SoftUni-Programming-Basics-Java/tree/main/Nested_Loops/Lab)
 - [Exercise](https://github.com/DenisBuserski/SoftUni-Programming-Basics-Java/tree/main/Nested_Loops/Exercise)
 - [More Exercise](https://github.com/DenisBuserski/SoftUni-Programming-Basics-Java/tree/main/Nested_Loops/More_Exercises)
+### Others
+- [Java Basics Lab - 09 September 2015](https://github.com/DenisBuserski/SoftUni-Programming-Basics-Java/tree/main/Others/Java_Basics_Lab_09_September_2015)
+- [Simple Operations And Calculations - More Exercises](https://github.com/DenisBuserski/SoftUni-Programming-Basics-Java/tree/main/Others/Simple_Operations_And_Calculations_More_Exercises)
 
 
 ## Exams
