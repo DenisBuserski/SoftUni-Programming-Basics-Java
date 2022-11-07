@@ -16,23 +16,23 @@ To learn more about the course you can check [Softuni](https://softuni.bg/)
 ### Conditional Statements
 - [Lab](https://github.com/DenisBuserski/SoftUni-Programming-Basics-Java/tree/main/Conditional_Statements/Lab)
 - [Exercise](https://github.com/DenisBuserski/SoftUni-Programming-Basics-Java/tree/main/Conditional_Statements/Exercise)
-- [More Exercise](https://github.com/DenisBuserski/SoftUni-Programming-Basics-Java/tree/main/Conditional_Statements_More_Exercises)
+- [More Exercise](https://github.com/DenisBuserski/SoftUni-Programming-Basics-Java/tree/main/Conditional_Statements/More_Exercises)
 ### Conditional Statements Advanced
-- [Lab](https://github.com/DenisBuserski/SoftUni-Programming-Basics-Java/tree/main/Conditional_Statements_Advanced_Lab)
-- [Exercise](https://github.com/DenisBuserski/SoftUni-Programming-Basics-Java/tree/main/Conditional_Statements_Advanced_Exercise)
-- [More Exercise](https://github.com/DenisBuserski/SoftUni-Programming-Basics-Java/tree/main/Conditional_Statements_Advanced_More_Exercises)
+- [Lab](https://github.com/DenisBuserski/SoftUni-Programming-Basics-Java/tree/main/Conditional_Statements_Advanced/Lab)
+- [Exercise](https://github.com/DenisBuserski/SoftUni-Programming-Basics-Java/tree/main/Conditional_Statements_Advanced/Exercise)
+- [More Exercise](https://github.com/DenisBuserski/SoftUni-Programming-Basics-Java/tree/main/Conditional_Statements_Advanced/More_Exercises)
 ### For Loop
-- [Lab](https://github.com/DenisBuserski/SoftUni-Programming-Basics-Java/tree/main/For_Loop_Lab)
-- [Exercise](https://github.com/DenisBuserski/SoftUni-Programming-Basics-Java/tree/main/For_Loop_Exercise)
-- [More Exercise](https://github.com/DenisBuserski/SoftUni-Programming-Basics-Java/tree/main/For_Loop_More_Exercises)
+- [Lab](https://github.com/DenisBuserski/SoftUni-Programming-Basics-Java/tree/main/For_Loop/Lab)
+- [Exercise](https://github.com/DenisBuserski/SoftUni-Programming-Basics-Java/tree/main/For_Loop/Exercise)
+- [More Exercise](https://github.com/DenisBuserski/SoftUni-Programming-Basics-Java/tree/main/For_Loop/More_Exercises)
 ### While Loop 
-- [Lab](https://github.com/DenisBuserski/SoftUni-Programming-Basics-Java/tree/main/While_Loop_Lab)
-- [Exercise](https://github.com/DenisBuserski/SoftUni-Programming-Basics-Java/tree/main/While_Loop_Exercise)
-- [More Exercise](https://github.com/DenisBuserski/SoftUni-Programming-Basics-Java/tree/main/While_Loop_More_Exercises)
+- [Lab](https://github.com/DenisBuserski/SoftUni-Programming-Basics-Java/tree/main/While_Loop/Lab)
+- [Exercise](https://github.com/DenisBuserski/SoftUni-Programming-Basics-Java/tree/main/While_Loop/Exercise)
+- [More Exercise](https://github.com/DenisBuserski/SoftUni-Programming-Basics-Java/tree/main/While_Loop/More_Exercises)
 ### Nested Loops
-- [Lab](https://github.com/DenisBuserski/SoftUni-Programming-Basics-Java/tree/main/Nested_Loops_Lab)
-- [Exercise](https://github.com/DenisBuserski/SoftUni-Programming-Basics-Java/tree/main/Nested_Loops_Exercise)
-- [More Exercise](https://github.com/DenisBuserski/SoftUni-Programming-Basics-Java/tree/main/Nested_Loops_More_Exercises)
+- [Lab](https://github.com/DenisBuserski/SoftUni-Programming-Basics-Java/tree/main/Nested_Loops/Lab)
+- [Exercise](https://github.com/DenisBuserski/SoftUni-Programming-Basics-Java/tree/main/Nested_Loops/Exercise)
+- [More Exercise](https://github.com/DenisBuserski/SoftUni-Programming-Basics-Java/tree/main/Nested_Loops/More_Exercises)
 
 
 ## Exams
