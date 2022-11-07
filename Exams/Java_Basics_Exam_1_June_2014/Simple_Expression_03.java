@@ -1,5 +1,3 @@
-package JAVA_DEVELOPMENT_SOFTUNI.Java_Development.Java_Advanced.Archive.Advanced_Java.Advanced_Java_Exams.Java_Basics_Exam_1_June_2014;
-
 import java.math.BigDecimal;
 import java.util.Scanner;
 
@@ -12,6 +10,7 @@ public class Simple_Expression_03 {
         String[] numbers = expression.split("[^0-9.]+");
         String[] operators = expression.split("[0-9.]+");
         BigDecimal sum = new BigDecimal(numbers[0]);
+        
         for (int i = 1; i < operators.length; i++) {
             BigDecimal number = new BigDecimal(numbers[i]);
             if (operators[i].equals("+")) {
@@ -19,19 +18,10 @@ public class Simple_Expression_03 {
             } else if (operators[i].equals("-")) {
                 sum = sum.subtract(number);
             } else {
-                throw new IllegalArgumentException(
-                        "Invalid operator: " + operators[i]);
+                throw new IllegalArgumentException("Invalid operator: " + operators[i]);
             }
         }
+        
         System.out.println(sum.toPlainString());
-
-
-
-
-
-
-
-
-
     }
 }
